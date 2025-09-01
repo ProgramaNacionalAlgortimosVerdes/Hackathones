@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/data/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/data/item/299">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urdón-Tresviso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.89</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/64">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Racón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/86">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alcoba a Casa Palillos - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.22</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/362">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de la Marmota: hacia el Estany Negre - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.2</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/262">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Barranquillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.83</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/126">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acequias del Poqueira (PR-A-23) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.42</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/202">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirador de Pico Viejo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/22">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Turieto - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/304">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra de Cocón (Oceño-San Esteban) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.47</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/329">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peña Oviedo (El Cable-Mogrovejo) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/76">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra de Castellar de los Bueyes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.01</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/189">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Costa a La Santa - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.79</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/91">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valhondo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.33</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/123">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Río Alhama (PR-A-33) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.05</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/207">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña Blanca-La Rambleta - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.4</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/279">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cueva de Santibañas (Ruta larga) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/186">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de los Volcanes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/301">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orandi - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.08</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/335">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Valles de Conangles y Rius - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.72</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/241">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuevas Negras - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.14</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/57">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Cotatuero - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.29</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/321">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Monte Camba (Tielve-Sotres) - Macizo de Ándara - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.93</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/27">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Cuello Gordo - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.21</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/343">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Estanys Gémena - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.72</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/12">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Bestué - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.81</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/50">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Casa dero Puerto a la Estiva - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.78</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/136">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molinos de Isfalada - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.61</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/60">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Sercué - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.19</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/96">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norte del Parque Nacional - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.77</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/148">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra del Canal de Ses Figueres - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/119">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda Monterrey (PR-A-25) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.82</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/285">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horcados Rojos - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.55</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/132">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Aguadero (PR-A-37) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.74</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/282">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda del Arcediano - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26.4</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/201">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recibo Quemado - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/70">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Superior de Añisclo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/173">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conejeras - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.48</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/69">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Añisclo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.06</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/79">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robledal-Alcornocal - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.14</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/278">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demués-Los Lagos - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.22</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/28">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Cuello Gordo - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.62</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/247">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Las Creces - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.89</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/146">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ses Sitges - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.79</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/318">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Cable-Vega de Liordes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.72</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/347">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hacia los Estanys del Pessó - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.33</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/253">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pajarito al Alto de Garajonay - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.74</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/353">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de la Nutria (Llúdriga): hacia Llebreta y Aigüestortes - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/168">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Yunquera-Tolox - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/214">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto de Guajara - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.34</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/111">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Monte Faro (Islas Cíes) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.32</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/312">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.88</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/316">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Ándara-Canal de San Carlos-Argüébanes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/0">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Monte Perdido - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.57</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/142">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visita arqueológica - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/325">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Cares - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.53</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/112">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de la Aldea - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/308">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vegarredonda-Caín (por la Canal de Mesones) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.79</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/367">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Marrón. Camino vecinal a Serradilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.77</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/206">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña Blanca-La Rambleta - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.24</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/237">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volcán de Fasnia - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.22</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/289">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montó (Valle de Prada) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.83</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/270">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panderruedas-Posada de Valdeón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.51</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/209">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siete Cañadas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/288">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jou de los Cabrones - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.06</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/52">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja de las Olas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/85">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alcoba a Casa Palillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/266">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canal de Camburero - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.49</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/313">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/327">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sierra de Cocón (Oceño-Tresviso) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.08</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/39">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Tucarroya a Astazus - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/140">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Isla del Pan. Ruta Amarilla - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/218">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Filo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.22</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/53">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Barranco Pardina - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.78</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/103">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Acebuche - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/18">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Miradores de Revilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/153">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caucón-Peñón de los Enamorados - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/242">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teleférico-Montaña Blanca-Minas de San Jose - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/344">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de los abetos: La Mata y El Gerdar - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.93</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/81">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino área recreativa del Acebo y las Fuentes - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/355">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Valle del Estany Tort - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.44</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/161">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-140 Quejigales-Torrecilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.93</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/100">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluvial de Sanlúcar a Doñana - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28.08</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/88">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda de la Torre de Abraham - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.56</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/248">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pajarito al Ajugal - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.53</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/133">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canal de la Espartera-Arenales del Trevenque (PR-A-21) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.42</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/256">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reventon Oscuro a El Cedro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.55</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/340">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino al Estany de Sant Maurici - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/65">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Brecha Rolando - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/215">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roques de García - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.53</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/134">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Capileira-La Cebadilla (PR-A-69) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/267">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puertos de Áliva - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/169">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Tolox-Guaro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.89</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/204">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sámara - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/342">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un valle colgado: Gerber - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/341">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circuito de Aigüestortes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.28</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/194">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teneza a la Playa del Reisado - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/349">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El mirador del Estany de Sant Maurici - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/160">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-351 Puerto Saucillo-Torrecilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.98</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/116">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de Monteagudo (Islas Cíes) - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/231">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corral del Niño-Yegua Blanca - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/211">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siete Cañadas - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/143">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visita arqueológica - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/179">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-278 Juanar-El Pozuelo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.32</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/118">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Sendero Sulayr GR-240 - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/120">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puerto de la Ragua-Aldeire (PR-A-333) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.83</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/158">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Las Escaleretas - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/170">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Guaro-Monda - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.43</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/239">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ucanca - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.77</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/314">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/90">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda botánica en el entorno del centro de visitantes de Casa Palillos - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/30">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Arrablo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/228">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña Limón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.28</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/71">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA O Castiello - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/14">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja de las Flores - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.57</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/306">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vegarredonda-Refugio de Vegabaño - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.42</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/323">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Refugio de Vegarredonda-Refugio de Vegabaño - Vega de Llos - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.53</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/43">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Tormosa - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/46">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Ermitas de Tella - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.65</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/114">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del sendero Perimetral (Ruta A) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.99</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/110">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta do Castelo (Isla de Ons) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.31</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/4">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Cazcarra - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.57</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/131">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dornajo-Campos de Otero (PR-A-19) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.12</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/105">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Faro (Isla de Ons) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/252">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Bailadero - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.44</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/230">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sanatorio - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.57</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/97">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio del Acebrón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.91</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/305">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Ario-Refugio de Vegarredonda - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.66</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/205">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sámara - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.53</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/291">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega de Liordes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.02</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/227">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lomo Hurtado - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/33">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA La Valle - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/102">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Acebuche - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.34</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/300">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camarmeña - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.85</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/234">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portillo Alto - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.42</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/5">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Torla a Fanlo por los miradores del Molar y el barranco Borrué - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.97</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/37">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Plana Canal - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.04</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/191">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miradero a Las Malvas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.65</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/240">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Cerrillar-La Carnicería - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.02</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/77">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retuerta del Bullaque - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.78</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/260">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laguna Grande-Alto de Garajonay - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.32</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/20">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Soaso a Góriz - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.31</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/216">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degollada de Guajara - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/66">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Valle Pineta Umbría - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/232">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirador de La Fortaleza - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.13</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/129">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cerro Huenes (PR-A-20) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/164">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-239 Charco de la Virgen - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/84">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horcajo de los Montes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30.49</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/269">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de la Reconquista - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62.14</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/167">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa El Burgo-Los Sauces-Yunquera - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.95</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/192">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña del Rodeo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.12</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/251">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Meseta de Hermigua-El Cedro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/165">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta turística Puerta Verde de Marbella-Ronda - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.88</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/174">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Burgo-La Fuensanta - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/294">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega de Ario - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.75</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/369">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Morada. Villarreal de San Carlos a Torrejón el Rubio - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.24</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/176">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-166 Istán-Herrizas de la Gallega - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.27</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/166">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Ronda-El Burgo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/180">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-228 Cruz del Padre Ventura - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.83</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/244">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barranco de Erques - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/89">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda botánica en el entorno del centro de visitantes de Casa Palillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/42">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA La Larri por pista y ramal Cascadas de La Larri - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.18</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/154">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caucón-Tajo de la Caína - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/345">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Gran Circ de Colomèrs - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/122">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoya del Portillo-Refugio Poqueira (PR-A-26) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/104">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Norte (Isla de Ons) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.59</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/258">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subida al Alto de Garajonay - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/159">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puerto Saucillo-Puerto Bellina - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/75">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Colada de Navalrincón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/257">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agando a Casa del Manco - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.79</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/360">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Travesia de los Refugios - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.66</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/265">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canal de Camburero - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/368">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Amarilla. Mirador de El Serrano-Tajadilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/3">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP La Escala y Cobatar - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.35</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/317">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Ándara-Canal de San Carlos-Argüébanes - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.56</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/11">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Bestué - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.32</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/330">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega de Llos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/181">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-229 Río de los Horcajos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.31</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/261">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ermita de Lourdes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/23">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Turieto - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/49">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Ermitas de Tella - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.06</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/47">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Ermitas de Tella - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.18</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/271">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de Frassinelli - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.39</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/34">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Puerto de Buisán - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.47</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/210">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siete Cañadas - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/162">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-141 Yunquera-Los Sauces - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/250">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raso Bruma a Risquillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.18</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/238">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chafarí - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/150">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del museo, jardín botánico y monumento a los franceses - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.27</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/224">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teide-Pico Viejo-Mirador de las Narices del Teide - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.62</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/290">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montó (Valle de Prada) - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/139">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Isla del Pan. Ruta Amarilla - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.69</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/193">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Termesana - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/195">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Regatones Negros - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/155">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Burgo-Puerto de la Mujer - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/36">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Lomar - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/374">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.82</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/324">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Farfada - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/331">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hayedo de Las Ilces - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.61</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/93">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda de la Cañada Real Segoviana - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.04</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/274">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pueblos de Sajambre - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/310">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Cable-Refugio de Vega de Urriellu - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.34</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/354">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino de Rus - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.41</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/82">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Encina - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/59">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Puerto de Fanlo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.65</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/48">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Ermitas de Tella - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/121">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silleta de Padul (PR-A-73) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/184">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Litoral - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/32">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Pelay - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.63</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/98">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sendero Dunar - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/163">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-280 Istán-Charco del Canalón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.26</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/144">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visita arqueológica - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/55">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Senda de los Cazadores - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.88</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/273">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pueblos de Sajambre - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.58</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/6">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Marboré - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.99</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/78">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Chorro, Chorrera chica y Rocigalgo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/236">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña Rajada - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.13</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/7">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Marboré - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.29</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/31">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Fanlo a Sercué por Nerín - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.61</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/268">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brez-Canal de las Arredondas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.95</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/83">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valle del Alcornocal - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/72">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boquerón del Estena - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.54</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/275">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda del Mercadillo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.07</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/25">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Carriata - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.13</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/220">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto de La Fortaleza - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/10">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Valle Pineta Solana - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.72</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/67">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Mondoto - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.69</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/365">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Negra. Camino de Barbaón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24.51</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/156">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Rejía - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.32</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/366">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta a Toril y Serrejón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/172">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Monda-Istán - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/99">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recorrido por el Interior de Doñana - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72.26</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/297">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cordiñanes-Collado Jermoso - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/334">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macizo de Ándara - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/370">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Verde. Arroyo Malvecino-Cerro Gimio - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.59</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/124">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puerto de la Ragua-Lagunilla Seca (PR-A-334) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/280">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cueva de Santibañas (Ruta larga) - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.87</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/356">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino del Estany Saburó - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/296">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cordiñanes-Collado Jermoso - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/137">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Torre de Prado Ancho. Ruta Azul - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.33</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/54">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Bestué a Escuaín - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.63</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/87">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alcoba a Casa Palillos - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/217">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Majúa - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.18</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/128">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trevélez-Siete Lagunas (PR-A-27) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.35</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/26">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Cuello Gordo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/320">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace La Jocica-Carombo - Soto-Vegabaño - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.14</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/106">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Faro da Porta (Islas Cíes) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/147">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del faro de l’Enciola - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.87</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/56">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Selva Pochas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.21</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/295">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cordiñanes-Collado Jermoso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.28</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/9">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Marboré - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/235">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telesforo Bravo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.24</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/287">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monte Camba (Tielve-Sotres) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.51</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/302">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pandetrave-Collado Jermoso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/315">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/61">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Gallisué a Vió y Buerba - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/339">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino del Estany Llong y el Portarró d'Espot - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.78</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/182">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SL-A-246 Yunquera-Nacimiento de Río Grande - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.17</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/19">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Fuentes del Yaga - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.04</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/145">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Castillo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/233">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arenas Negras - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.98</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/127">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lanjarón-Tello (PR-A-34) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.24</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/51">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Casa dero Puerto a la Estiva - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.56</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/332">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vega de Urriellu - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.85</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/149">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Na Picamosques - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.46</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/171">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243 Sierra de las Nieves Etapa Monda-Istán - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.19</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/263">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Contadero-El Cedro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.61</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/109">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Alto do Príncipe (Islas Cíes) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.19</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/259">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pajarito al Chorro del Cedro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.02</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/337">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hacia las Agulles d’Amitges - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.49</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/286">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Jocica-Carombo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.93</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/351">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cascada de Gerber - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/276">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda del Mercadillo - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.25</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/107">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Sur (Isla de Ons) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.37</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/2">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Las Cutas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/151">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Miranda - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/348">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Vall de Monestero - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.39</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/185">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Litoral - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.34</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/311">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Cable-Refugio de Vega de Urriellu - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/198">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumbres de Ucanca - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.69</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/16">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace SP Puerto de Fanlo - SP Las Cutas - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.38</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/264">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Laguna Grande II - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.03</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/328">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Casares) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.93</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/363">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Ruta de la Marmota - Travesía de los Refugios - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.12</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/141">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Laguna Permanente. Ruta Roja - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.74</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/373">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.3</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/357">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Valle de Besiberri - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.92</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/80">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino área recreativa del Acebo y las Fuentes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/223">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Degollada del Cedro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.89</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/1">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Pardina - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.55</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/157">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Las Escaleretas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.91</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/336">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino de Sant Maurici al Portarró d'Espot - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.41</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/188">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Grifo-Tinguatón - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.56</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/298">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soto-Vegabaño - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.77</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/199">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumbres de Ucanca - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.03</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/309">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Urriellu-Refugio del Jou de los Cabrones - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.88</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/200">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumbres de Ucanca - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.8</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/38">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Tucarroya a Astazus - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.01</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/95">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Rocina - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/372">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/319">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Cable-Vega de Liordes - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/40">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Tucarroya a Astazus - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/190">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mancha Blanca-Playa de la Madera - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.91</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/135">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ubeire - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.11</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/249">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Laguna Grande I - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/371">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Verde. Arroyo Malvecino-Cerro Gimio - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.43</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/203">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Valles - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.87</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/17">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Buerba a Vió - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.85</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/226">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chavao - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.35</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/293">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de los Lagos - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/225">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teide-Pico Viejo-Mirador de las Narices del Teide - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.11</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/361">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Travesia de los Refugios - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/183">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-243-1 Sierra de las Nieves Etapa Ojén-Istán - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.41</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/283">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda del Arcediano - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.86</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/92">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Viñuela - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12.12</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/272">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entorno de Tresviso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.99</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/187">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subida a la Caldera de Montaña Blanca - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.42</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/246">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Portillo Alto - Jardín Botánico de El Portillo - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/281">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vegarredonda-Ordiales - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.4</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/68">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Soaso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.69</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/178">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-168 Juanar-La Concha - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13.71</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/101">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluvial de Sanlúcar a Doñana - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.21</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/358">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Travesia de los Refugios - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53.57</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/254">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cañada de Jorge - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.15</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/117">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jérez del Marquesado-Refugio Postero Alto (PR-A-31) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">17.31</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/62">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Gallisué a Vió y Buerba - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/125">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pueblos del Poqueira (PR-A-70) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.96</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/113">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del sendero Interior (Ruta B) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.3</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/364">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta Azul. Villarreal de San Carlos a Malpartida de Plasencia - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19.19</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/333">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macizo de Ándara - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27.63</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/292">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de los Lagos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.92</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/326">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cueva de Santibañas (Ruta corta) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.74</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/350">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A caballo de las montañas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.55</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/177">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-167 Istán-Ojén - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.41</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/58">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Collado de Añisclo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.36</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/307">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refugio de Vega de Ario-Caín (por Canal de Trea) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.27</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/21">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Puerto de Lera - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/44">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Bocera-Paraiso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.48</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/222">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña Negra - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/303">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oseja de Sajambre-Panderruedas - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.07</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/243">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llano de Ucanca-Boca Tauce - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.86</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/15">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Puerto Bujaruelo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/152">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caucón-Peñón de los Enamorados - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15.24</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/208">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montaña de los Tomillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.14</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/130">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Río Grande de los Bérchules (PR-A-28) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14.97</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/115">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de Monteagudo (Islas Cíes) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/175">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR-A-135 Istán-La Concha - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/24">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Sestrales - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.23</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/245">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Chafarí - Boca Tauce - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.72</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/196">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abeque - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.67</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/219">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boca de Chavao - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/13">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Foratarruego - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.45</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/346">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Clot de la Mainera - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.56</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/94">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Senda etnográfica en el entorno del centro de visitantes de Casa Palillos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.06</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/338">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camino del Estany Llong y el Portarró d'Espot - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.94</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/45">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Faja Canarellos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.79</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/8">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA Marboré - Variante</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.08</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/74">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaza de los Moros - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.27</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/277">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Demués-Los Lagos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.91</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/213">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto de Guajara - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/322">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enlace Soto-Vegabaño - Senda del Arcediano - Enlace</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.09</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/29">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA San Úrbez al Molino de Aso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.04</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/212">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto de Guamaso - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.76</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/63">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP Gallisué a Vió y Buerba - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.73</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/359">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Travesia de los Refugios - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/35">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA Parador de Ordesa - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.26</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/229">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Fortaleza - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11.11</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/221">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alto de La Fortaleza - Derivación</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.39</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/352">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta de la Nutria (Llúdriga): hacia Llebreta y Aigüestortes - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.46</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/284">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horcados Rojos - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.84</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/138">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molino de Molemocho. Ruta Magenta - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.16</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/255">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Meseta de Hermigua (Las tres Cascadas) - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.85</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/108">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta del Faro - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.59</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/41">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIA La Larri por pista y ramal Cascadas de La Larri - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.08</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/197">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Igueque - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.64</ns1:longitud_km>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/73">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macizo de Rocigalgo - Principal</ns1:nombre>
+    <ns1:longitud_km rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.97</ns1:longitud_km>
+  </rdf:Description>
+</rdf:RDF>

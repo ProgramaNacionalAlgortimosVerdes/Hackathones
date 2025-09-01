@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <Nombre>SA Monte Perdido - Principal</Nombre>
+    <Longitud_km>8.57</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Pardina - Principal</Nombre>
+    <Longitud_km>8.55</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Las Cutas - Principal</Nombre>
+    <Longitud_km>29.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP La Escala y Cobatar - Principal</Nombre>
+    <Longitud_km>7.35</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Cazcarra - Principal</Nombre>
+    <Longitud_km>3.57</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Torla a Fanlo por los miradores del Molar y el barranco Borrué - Principal</Nombre>
+    <Longitud_km>14.97</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Marboré - Principal</Nombre>
+    <Longitud_km>9.99</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Marboré - Variante</Nombre>
+    <Longitud_km>0.29</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Marboré - Variante</Nombre>
+    <Longitud_km>2.08</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Marboré - Derivación</Nombre>
+    <Longitud_km>0.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Valle Pineta Solana - Principal</Nombre>
+    <Longitud_km>11.72</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Bestué - Principal</Nombre>
+    <Longitud_km>7.32</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Bestué - Derivación</Nombre>
+    <Longitud_km>4.81</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Foratarruego - Principal</Nombre>
+    <Longitud_km>7.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja de las Flores - Principal</Nombre>
+    <Longitud_km>3.57</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Puerto Bujaruelo - Principal</Nombre>
+    <Longitud_km>8.7</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace SP Puerto de Fanlo - SP Las Cutas - Enlace</Nombre>
+    <Longitud_km>1.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Buerba a Vió - Principal</Nombre>
+    <Longitud_km>2.85</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Miradores de Revilla - Principal</Nombre>
+    <Longitud_km>2.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Fuentes del Yaga - Principal</Nombre>
+    <Longitud_km>2.04</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Soaso a Góriz - Principal</Nombre>
+    <Longitud_km>3.31</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Puerto de Lera - Principal</Nombre>
+    <Longitud_km>3.9</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Turieto - Principal</Nombre>
+    <Longitud_km>7.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Turieto - Variante</Nombre>
+    <Longitud_km>3.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Sestrales - Principal</Nombre>
+    <Longitud_km>3.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Carriata - Principal</Nombre>
+    <Longitud_km>9.13</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Cuello Gordo - Principal</Nombre>
+    <Longitud_km>7.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Cuello Gordo - Variante</Nombre>
+    <Longitud_km>0.21</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Cuello Gordo - Variante</Nombre>
+    <Longitud_km>0.62</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA San Úrbez al Molino de Aso - Principal</Nombre>
+    <Longitud_km>2.04</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Arrablo - Principal</Nombre>
+    <Longitud_km>5.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Fanlo a Sercué por Nerín - Principal</Nombre>
+    <Longitud_km>8.61</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Pelay - Principal</Nombre>
+    <Longitud_km>9.63</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA La Valle - Principal</Nombre>
+    <Longitud_km>10.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Puerto de Buisán - Principal</Nombre>
+    <Longitud_km>5.47</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Parador de Ordesa - Principal</Nombre>
+    <Longitud_km>0.26</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Lomar - Principal</Nombre>
+    <Longitud_km>8.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Plana Canal - Principal</Nombre>
+    <Longitud_km>9.04</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Tucarroya a Astazus - Principal</Nombre>
+    <Longitud_km>7.01</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Tucarroya a Astazus - Derivación</Nombre>
+    <Longitud_km>0.12</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Tucarroya a Astazus - Derivación</Nombre>
+    <Longitud_km>2.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA La Larri por pista y ramal Cascadas de La Larri - Principal</Nombre>
+    <Longitud_km>4.08</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA La Larri por pista y ramal Cascadas de La Larri - Derivación</Nombre>
+    <Longitud_km>1.18</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Tormosa - Principal</Nombre>
+    <Longitud_km>4.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Bocera-Paraiso - Principal</Nombre>
+    <Longitud_km>7.48</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Canarellos - Principal</Nombre>
+    <Longitud_km>3.79</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Ermitas de Tella - Principal</Nombre>
+    <Longitud_km>1.65</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Ermitas de Tella - Derivación</Nombre>
+    <Longitud_km>0.18</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Ermitas de Tella - Derivación</Nombre>
+    <Longitud_km>0.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Ermitas de Tella - Derivación</Nombre>
+    <Longitud_km>0.06</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Casa dero Puerto a la Estiva - Principal</Nombre>
+    <Longitud_km>5.78</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Casa dero Puerto a la Estiva - Derivación</Nombre>
+    <Longitud_km>0.56</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja de las Olas - Principal</Nombre>
+    <Longitud_km>5.9</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Barranco Pardina - Principal</Nombre>
+    <Longitud_km>3.78</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Bestué a Escuaín - Principal</Nombre>
+    <Longitud_km>6.63</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Senda de los Cazadores - Principal</Nombre>
+    <Longitud_km>1.88</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Selva Pochas - Principal</Nombre>
+    <Longitud_km>1.21</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Cotatuero - Principal</Nombre>
+    <Longitud_km>8.29</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Collado de Añisclo - Principal</Nombre>
+    <Longitud_km>6.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Puerto de Fanlo - Principal</Nombre>
+    <Longitud_km>5.65</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Sercué - Principal</Nombre>
+    <Longitud_km>3.19</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Gallisué a Vió y Buerba - Principal</Nombre>
+    <Longitud_km>6.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Gallisué a Vió y Buerba - Derivación</Nombre>
+    <Longitud_km>1.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Gallisué a Vió y Buerba - Derivación</Nombre>
+    <Longitud_km>4.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Faja Racón - Principal</Nombre>
+    <Longitud_km>2.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Brecha Rolando - Principal</Nombre>
+    <Longitud_km>6.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Valle Pineta Umbría - Principal</Nombre>
+    <Longitud_km>7.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SP Mondoto - Principal</Nombre>
+    <Longitud_km>6.69</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA Soaso - Principal</Nombre>
+    <Longitud_km>8.69</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Añisclo - Principal</Nombre>
+    <Longitud_km>15.06</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SA Superior de Añisclo - Principal</Nombre>
+    <Longitud_km>5.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SIA O Castiello - Principal</Nombre>
+    <Longitud_km>0.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Boquerón del Estena - Principal</Nombre>
+    <Longitud_km>8.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Macizo de Rocigalgo - Principal</Nombre>
+    <Longitud_km>21.97</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Plaza de los Moros - Principal</Nombre>
+    <Longitud_km>2.27</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Colada de Navalrincón - Principal</Nombre>
+    <Longitud_km>18.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sierra de Castellar de los Bueyes - Principal</Nombre>
+    <Longitud_km>6.01</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Retuerta del Bullaque - Principal</Nombre>
+    <Longitud_km>23.78</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Chorro, Chorrera chica y Rocigalgo - Principal</Nombre>
+    <Longitud_km>16.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Robledal-Alcornocal - Principal</Nombre>
+    <Longitud_km>6.14</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino área recreativa del Acebo y las Fuentes - Principal</Nombre>
+    <Longitud_km>6.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino área recreativa del Acebo y las Fuentes - Derivación</Nombre>
+    <Longitud_km>1.2</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Encina - Principal</Nombre>
+    <Longitud_km>1.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Valle del Alcornocal - Principal</Nombre>
+    <Longitud_km>9.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Horcajo de los Montes - Principal</Nombre>
+    <Longitud_km>30.49</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alcoba a Casa Palillos - Principal</Nombre>
+    <Longitud_km>20.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alcoba a Casa Palillos - Derivación</Nombre>
+    <Longitud_km>11.22</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alcoba a Casa Palillos - Derivación</Nombre>
+    <Longitud_km>7.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda de la Torre de Abraham - Principal</Nombre>
+    <Longitud_km>0.56</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda botánica en el entorno del centro de visitantes de Casa Palillos - Principal</Nombre>
+    <Longitud_km>0.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda botánica en el entorno del centro de visitantes de Casa Palillos - Variante</Nombre>
+    <Longitud_km>0.11</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Valhondo - Principal</Nombre>
+    <Longitud_km>6.33</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Viñuela - Principal</Nombre>
+    <Longitud_km>12.12</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda de la Cañada Real Segoviana - Principal</Nombre>
+    <Longitud_km>4.04</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda etnográfica en el entorno del centro de visitantes de Casa Palillos - Principal</Nombre>
+    <Longitud_km>1.06</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Rocina - Principal</Nombre>
+    <Longitud_km>3.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Norte del Parque Nacional - Principal</Nombre>
+    <Longitud_km>13.77</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Palacio del Acebrón - Principal</Nombre>
+    <Longitud_km>1.91</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sendero Dunar - Principal</Nombre>
+    <Longitud_km>1.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Recorrido por el Interior de Doñana - Principal</Nombre>
+    <Longitud_km>72.26</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Fluvial de Sanlúcar a Doñana - Principal</Nombre>
+    <Longitud_km>28.08</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Fluvial de Sanlúcar a Doñana - Derivación</Nombre>
+    <Longitud_km>0.21</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Acebuche - Principal</Nombre>
+    <Longitud_km>1.34</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Acebuche - Derivación</Nombre>
+    <Longitud_km>0.65</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Norte (Isla de Ons) - Principal</Nombre>
+    <Longitud_km>7.59</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Faro (Isla de Ons) - Principal</Nombre>
+    <Longitud_km>3.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Faro da Porta (Islas Cíes) - Principal</Nombre>
+    <Longitud_km>5.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Sur (Isla de Ons) - Principal</Nombre>
+    <Longitud_km>6.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Faro - Principal</Nombre>
+    <Longitud_km>2.59</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Alto do Príncipe (Islas Cíes) - Principal</Nombre>
+    <Longitud_km>3.19</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta do Castelo (Isla de Ons) - Principal</Nombre>
+    <Longitud_km>1.31</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Monte Faro (Islas Cíes) - Principal</Nombre>
+    <Longitud_km>8.32</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de la Aldea - Principal</Nombre>
+    <Longitud_km>2.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del sendero Interior (Ruta B) - Principal</Nombre>
+    <Longitud_km>2.3</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del sendero Perimetral (Ruta A) - Principal</Nombre>
+    <Longitud_km>2.99</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de Monteagudo (Islas Cíes) - Principal</Nombre>
+    <Longitud_km>4.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de Monteagudo (Islas Cíes) - Derivación</Nombre>
+    <Longitud_km>0.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Jérez del Marquesado-Refugio Postero Alto (PR-A-31) - Principal</Nombre>
+    <Longitud_km>17.31</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Sendero Sulayr GR-240 - Principal</Nombre>
+    <Longitud_km>288.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda Monterrey (PR-A-25) - Principal</Nombre>
+    <Longitud_km>9.82</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Puerto de la Ragua-Aldeire (PR-A-333) - Principal</Nombre>
+    <Longitud_km>12.83</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Silleta de Padul (PR-A-73) - Principal</Nombre>
+    <Longitud_km>11.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Hoya del Portillo-Refugio Poqueira (PR-A-26) - Principal</Nombre>
+    <Longitud_km>8.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Río Alhama (PR-A-33) - Principal</Nombre>
+    <Longitud_km>7.05</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Puerto de la Ragua-Lagunilla Seca (PR-A-334) - Principal</Nombre>
+    <Longitud_km>15.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pueblos del Poqueira (PR-A-70) - Principal</Nombre>
+    <Longitud_km>8.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Acequias del Poqueira (PR-A-23) - Principal</Nombre>
+    <Longitud_km>16.42</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Lanjarón-Tello (PR-A-34) - Principal</Nombre>
+    <Longitud_km>11.24</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Trevélez-Siete Lagunas (PR-A-27) - Principal</Nombre>
+    <Longitud_km>16.35</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cerro Huenes (PR-A-20) - Principal</Nombre>
+    <Longitud_km>12.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Río Grande de los Bérchules (PR-A-28) - Principal</Nombre>
+    <Longitud_km>14.97</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Dornajo-Campos de Otero (PR-A-19) - Principal</Nombre>
+    <Longitud_km>8.12</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Aguadero (PR-A-37) - Principal</Nombre>
+    <Longitud_km>14.74</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Canal de la Espartera-Arenales del Trevenque (PR-A-21) - Principal</Nombre>
+    <Longitud_km>12.42</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Capileira-La Cebadilla (PR-A-69) - Principal</Nombre>
+    <Longitud_km>8.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ubeire - Principal</Nombre>
+    <Longitud_km>5.11</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Molinos de Isfalada - Principal</Nombre>
+    <Longitud_km>4.61</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Torre de Prado Ancho. Ruta Azul - Principal</Nombre>
+    <Longitud_km>3.33</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Molino de Molemocho. Ruta Magenta - Principal</Nombre>
+    <Longitud_km>1.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Isla del Pan. Ruta Amarilla - Principal</Nombre>
+    <Longitud_km>2.69</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Isla del Pan. Ruta Amarilla - Variante</Nombre>
+    <Longitud_km>0.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Laguna Permanente. Ruta Roja - Principal</Nombre>
+    <Longitud_km>1.74</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Visita arqueológica - Principal</Nombre>
+    <Longitud_km>1.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Visita arqueológica - Derivación</Nombre>
+    <Longitud_km>0.1</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Visita arqueológica - Derivación</Nombre>
+    <Longitud_km>0.29</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Castillo - Principal</Nombre>
+    <Longitud_km>1.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ses Sitges - Principal</Nombre>
+    <Longitud_km>7.79</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del faro de l’Enciola - Principal</Nombre>
+    <Longitud_km>10.87</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sierra del Canal de Ses Figueres - Principal</Nombre>
+    <Longitud_km>7.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Na Picamosques - Principal</Nombre>
+    <Longitud_km>7.46</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del museo, jardín botánico y monumento a los franceses - Principal</Nombre>
+    <Longitud_km>3.27</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Miranda - Principal</Nombre>
+    <Longitud_km>5.6</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Caucón-Peñón de los Enamorados - Principal</Nombre>
+    <Longitud_km>15.24</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Caucón-Peñón de los Enamorados - Derivación</Nombre>
+    <Longitud_km>0.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Caucón-Tajo de la Caína - Principal</Nombre>
+    <Longitud_km>4.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Burgo-Puerto de la Mujer - Principal</Nombre>
+    <Longitud_km>11.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Rejía - Principal</Nombre>
+    <Longitud_km>7.32</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Las Escaleretas - Principal</Nombre>
+    <Longitud_km>1.91</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Las Escaleretas - Derivación</Nombre>
+    <Longitud_km>0.29</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Puerto Saucillo-Puerto Bellina - Principal</Nombre>
+    <Longitud_km>4.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-351 Puerto Saucillo-Torrecilla - Principal</Nombre>
+    <Longitud_km>19.98</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-140 Quejigales-Torrecilla - Principal</Nombre>
+    <Longitud_km>14.93</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-141 Yunquera-Los Sauces - Principal</Nombre>
+    <Longitud_km>16.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-280 Istán-Charco del Canalón - Principal</Nombre>
+    <Longitud_km>13.26</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-239 Charco de la Virgen - Principal</Nombre>
+    <Longitud_km>4.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta turística Puerta Verde de Marbella-Ronda - Principal</Nombre>
+    <Longitud_km>41.88</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Ronda-El Burgo - Principal</Nombre>
+    <Longitud_km>23.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa El Burgo-Los Sauces-Yunquera - Principal</Nombre>
+    <Longitud_km>23.95</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Yunquera-Tolox - Principal</Nombre>
+    <Longitud_km>8.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Tolox-Guaro - Principal</Nombre>
+    <Longitud_km>13.89</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Guaro-Monda - Principal</Nombre>
+    <Longitud_km>6.43</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Monda-Istán - Principal</Nombre>
+    <Longitud_km>18.19</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243 Sierra de las Nieves Etapa Monda-Istán - Variante</Nombre>
+    <Longitud_km>16.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Conejeras - Principal</Nombre>
+    <Longitud_km>2.48</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Burgo-La Fuensanta - Principal</Nombre>
+    <Longitud_km>4.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-135 Istán-La Concha - Principal</Nombre>
+    <Longitud_km>10.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-166 Istán-Herrizas de la Gallega - Principal</Nombre>
+    <Longitud_km>2.27</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-167 Istán-Ojén - Principal</Nombre>
+    <Longitud_km>11.41</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-168 Juanar-La Concha - Principal</Nombre>
+    <Longitud_km>13.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>PR-A-278 Juanar-El Pozuelo - Principal</Nombre>
+    <Longitud_km>6.32</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-228 Cruz del Padre Ventura - Principal</Nombre>
+    <Longitud_km>1.83</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-229 Río de los Horcajos - Principal</Nombre>
+    <Longitud_km>8.31</Longitud_km>
+  </row>
+  <row>
+    <Nombre>SL-A-246 Yunquera-Nacimiento de Río Grande - Principal</Nombre>
+    <Longitud_km>9.17</Longitud_km>
+  </row>
+  <row>
+    <Nombre>GR-243-1 Sierra de las Nieves Etapa Ojén-Istán - Principal</Nombre>
+    <Longitud_km>11.41</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Litoral - Principal</Nombre>
+    <Longitud_km>11.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Litoral - Derivación</Nombre>
+    <Longitud_km>2.34</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de los Volcanes - Principal</Nombre>
+    <Longitud_km>10.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Subida a la Caldera de Montaña Blanca - Principal</Nombre>
+    <Longitud_km>11.42</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Grifo-Tinguatón - Principal</Nombre>
+    <Longitud_km>6.56</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Costa a La Santa - Principal</Nombre>
+    <Longitud_km>5.79</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Mancha Blanca-Playa de la Madera - Principal</Nombre>
+    <Longitud_km>18.91</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Miradero a Las Malvas - Principal</Nombre>
+    <Longitud_km>9.65</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña del Rodeo - Principal</Nombre>
+    <Longitud_km>7.12</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Termesana - Principal</Nombre>
+    <Longitud_km>3.23</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Teneza a la Playa del Reisado - Principal</Nombre>
+    <Longitud_km>5.2</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Los Regatones Negros - Principal</Nombre>
+    <Longitud_km>5.2</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Abeque - Principal</Nombre>
+    <Longitud_km>4.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Igueque - Principal</Nombre>
+    <Longitud_km>2.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cumbres de Ucanca - Principal</Nombre>
+    <Longitud_km>7.69</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cumbres de Ucanca - Variante</Nombre>
+    <Longitud_km>1.03</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cumbres de Ucanca - Derivación</Nombre>
+    <Longitud_km>0.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Recibo Quemado - Principal</Nombre>
+    <Longitud_km>2.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Mirador de Pico Viejo - Principal</Nombre>
+    <Longitud_km>0.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Los Valles - Principal</Nombre>
+    <Longitud_km>4.87</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sámara - Principal</Nombre>
+    <Longitud_km>4.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sámara - Derivación</Nombre>
+    <Longitud_km>0.53</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña Blanca-La Rambleta - Principal</Nombre>
+    <Longitud_km>8.24</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña Blanca-La Rambleta - Derivación</Nombre>
+    <Longitud_km>1.4</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña de los Tomillos - Principal</Nombre>
+    <Longitud_km>5.14</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Siete Cañadas - Principal</Nombre>
+    <Longitud_km>16.4</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Siete Cañadas - Derivación</Nombre>
+    <Longitud_km>0.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Siete Cañadas - Derivación</Nombre>
+    <Longitud_km>0.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alto de Guamaso - Principal</Nombre>
+    <Longitud_km>2.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alto de Guajara - Principal</Nombre>
+    <Longitud_km>3.4</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alto de Guajara - Derivación</Nombre>
+    <Longitud_km>0.34</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Roques de García - Principal</Nombre>
+    <Longitud_km>3.53</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Degollada de Guajara - Principal</Nombre>
+    <Longitud_km>2.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Majúa - Principal</Nombre>
+    <Longitud_km>4.18</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Filo - Principal</Nombre>
+    <Longitud_km>14.22</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Boca de Chavao - Principal</Nombre>
+    <Longitud_km>0.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alto de La Fortaleza - Principal</Nombre>
+    <Longitud_km>2.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Alto de La Fortaleza - Derivación</Nombre>
+    <Longitud_km>0.39</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña Negra - Principal</Nombre>
+    <Longitud_km>3.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Degollada del Cedro - Principal</Nombre>
+    <Longitud_km>1.89</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Teide-Pico Viejo-Mirador de las Narices del Teide - Principal</Nombre>
+    <Longitud_km>9.62</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Teide-Pico Viejo-Mirador de las Narices del Teide - Derivación</Nombre>
+    <Longitud_km>0.11</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Chavao - Principal</Nombre>
+    <Longitud_km>4.35</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Lomo Hurtado - Principal</Nombre>
+    <Longitud_km>4.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña Limón - Principal</Nombre>
+    <Longitud_km>2.28</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Fortaleza - Principal</Nombre>
+    <Longitud_km>11.11</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sanatorio - Principal</Nombre>
+    <Longitud_km>4.57</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Corral del Niño-Yegua Blanca - Principal</Nombre>
+    <Longitud_km>6.45</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Mirador de La Fortaleza - Principal</Nombre>
+    <Longitud_km>1.13</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Arenas Negras - Principal</Nombre>
+    <Longitud_km>7.98</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Portillo Alto - Principal</Nombre>
+    <Longitud_km>1.42</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Telesforo Bravo - Principal</Nombre>
+    <Longitud_km>1.24</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montaña Rajada - Principal</Nombre>
+    <Longitud_km>2.13</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Volcán de Fasnia - Principal</Nombre>
+    <Longitud_km>8.22</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Chafarí - Principal</Nombre>
+    <Longitud_km>6.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ucanca - Principal</Nombre>
+    <Longitud_km>1.77</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Cerrillar-La Carnicería - Principal</Nombre>
+    <Longitud_km>3.02</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cuevas Negras - Principal</Nombre>
+    <Longitud_km>2.14</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Teleférico-Montaña Blanca-Minas de San Jose - Principal</Nombre>
+    <Longitud_km>7.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Llano de Ucanca-Boca Tauce - Principal</Nombre>
+    <Longitud_km>4.86</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Barranco de Erques - Principal</Nombre>
+    <Longitud_km>2.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Chafarí - Boca Tauce - Enlace</Nombre>
+    <Longitud_km>0.72</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Portillo Alto - Jardín Botánico de El Portillo - Enlace</Nombre>
+    <Longitud_km>0.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Las Creces - Principal</Nombre>
+    <Longitud_km>3.89</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pajarito al Ajugal - Principal</Nombre>
+    <Longitud_km>7.53</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Laguna Grande I - Principal</Nombre>
+    <Longitud_km>0.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Raso Bruma a Risquillos - Principal</Nombre>
+    <Longitud_km>1.18</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Meseta de Hermigua-El Cedro - Principal</Nombre>
+    <Longitud_km>2.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Bailadero - Principal</Nombre>
+    <Longitud_km>0.44</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pajarito al Alto de Garajonay - Principal</Nombre>
+    <Longitud_km>2.74</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cañada de Jorge - Principal</Nombre>
+    <Longitud_km>3.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Meseta de Hermigua (Las tres Cascadas) - Principal</Nombre>
+    <Longitud_km>0.85</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Reventon Oscuro a El Cedro - Principal</Nombre>
+    <Longitud_km>2.55</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Agando a Casa del Manco - Principal</Nombre>
+    <Longitud_km>1.79</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Subida al Alto de Garajonay - Principal</Nombre>
+    <Longitud_km>2.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pajarito al Chorro del Cedro - Principal</Nombre>
+    <Longitud_km>14.02</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Laguna Grande-Alto de Garajonay - Principal</Nombre>
+    <Longitud_km>9.32</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ermita de Lourdes - Principal</Nombre>
+    <Longitud_km>0.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Los Barranquillos - Principal</Nombre>
+    <Longitud_km>0.83</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Contadero-El Cedro - Principal</Nombre>
+    <Longitud_km>10.61</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Laguna Grande II - Principal</Nombre>
+    <Longitud_km>4.03</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Canal de Camburero - Principal</Nombre>
+    <Longitud_km>9.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Canal de Camburero - Variante</Nombre>
+    <Longitud_km>1.49</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Puertos de Áliva - Principal</Nombre>
+    <Longitud_km>13.64</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Brez-Canal de las Arredondas - Principal</Nombre>
+    <Longitud_km>4.95</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de la Reconquista - Principal</Nombre>
+    <Longitud_km>62.14</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Panderruedas-Posada de Valdeón - Principal</Nombre>
+    <Longitud_km>12.51</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de Frassinelli - Principal</Nombre>
+    <Longitud_km>14.39</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Entorno de Tresviso - Principal</Nombre>
+    <Longitud_km>2.99</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pueblos de Sajambre - Principal</Nombre>
+    <Longitud_km>10.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pueblos de Sajambre - Derivación</Nombre>
+    <Longitud_km>2.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda del Mercadillo - Principal</Nombre>
+    <Longitud_km>13.07</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda del Mercadillo - Derivación</Nombre>
+    <Longitud_km>3.25</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Demués-Los Lagos - Principal</Nombre>
+    <Longitud_km>11.91</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Demués-Los Lagos - Variante</Nombre>
+    <Longitud_km>3.22</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cueva de Santibañas (Ruta larga) - Principal</Nombre>
+    <Longitud_km>4.15</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cueva de Santibañas (Ruta larga) - Derivación</Nombre>
+    <Longitud_km>0.87</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Vegarredonda-Ordiales - Principal</Nombre>
+    <Longitud_km>23.4</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda del Arcediano - Principal</Nombre>
+    <Longitud_km>26.4</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Senda del Arcediano - Derivación</Nombre>
+    <Longitud_km>1.86</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Horcados Rojos - Principal</Nombre>
+    <Longitud_km>10.84</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Horcados Rojos - Derivación</Nombre>
+    <Longitud_km>0.55</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Jocica-Carombo - Principal</Nombre>
+    <Longitud_km>13.93</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Monte Camba (Tielve-Sotres) - Principal</Nombre>
+    <Longitud_km>13.51</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Jou de los Cabrones - Principal</Nombre>
+    <Longitud_km>20.06</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montó (Valle de Prada) - Principal</Nombre>
+    <Longitud_km>10.83</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Montó (Valle de Prada) - Derivación</Nombre>
+    <Longitud_km>2.76</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Vega de Liordes - Principal</Nombre>
+    <Longitud_km>13.02</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de los Lagos - Principal</Nombre>
+    <Longitud_km>5.92</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de los Lagos - Variante</Nombre>
+    <Longitud_km>0.2</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Vega de Ario - Principal</Nombre>
+    <Longitud_km>13.75</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cordiñanes-Collado Jermoso - Principal</Nombre>
+    <Longitud_km>5.28</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cordiñanes-Collado Jermoso - Variante</Nombre>
+    <Longitud_km>0.5</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cordiñanes-Collado Jermoso - Variante</Nombre>
+    <Longitud_km>0.37</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Soto-Vegabaño - Principal</Nombre>
+    <Longitud_km>10.77</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Urdón-Tresviso - Principal</Nombre>
+    <Longitud_km>11.89</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camarmeña - Principal</Nombre>
+    <Longitud_km>1.85</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Orandi - Principal</Nombre>
+    <Longitud_km>5.08</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Pandetrave-Collado Jermoso - Principal</Nombre>
+    <Longitud_km>12.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Oseja de Sajambre-Panderruedas - Principal</Nombre>
+    <Longitud_km>7.07</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sierra de Cocón (Oceño-San Esteban) - Principal</Nombre>
+    <Longitud_km>11.47</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Ario-Refugio de Vegarredonda - Principal</Nombre>
+    <Longitud_km>7.66</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vegarredonda-Refugio de Vegabaño - Principal</Nombre>
+    <Longitud_km>15.42</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Ario-Caín (por Canal de Trea) - Principal</Nombre>
+    <Longitud_km>6.27</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vegarredonda-Caín (por la Canal de Mesones) - Principal</Nombre>
+    <Longitud_km>12.79</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio del Jou de los Cabrones - Principal</Nombre>
+    <Longitud_km>3.88</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Cable-Refugio de Vega de Urriellu - Principal</Nombre>
+    <Longitud_km>8.34</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Cable-Refugio de Vega de Urriellu - Variante</Nombre>
+    <Longitud_km>1.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Principal</Nombre>
+    <Longitud_km>7.88</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Variante</Nombre>
+    <Longitud_km>0.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Variante</Nombre>
+    <Longitud_km>1.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Callejo) - Derivación</Nombre>
+    <Longitud_km>0.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Ándara-Canal de San Carlos-Argüébanes - Principal</Nombre>
+    <Longitud_km>10.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Ándara-Canal de San Carlos-Argüébanes - Variante</Nombre>
+    <Longitud_km>0.56</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Cable-Vega de Liordes - Principal</Nombre>
+    <Longitud_km>12.72</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Cable-Vega de Liordes - Variante</Nombre>
+    <Longitud_km>0.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace La Jocica-Carombo - Soto-Vegabaño - Enlace</Nombre>
+    <Longitud_km>1.14</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Monte Camba (Tielve-Sotres) - Macizo de Ándara - Enlace</Nombre>
+    <Longitud_km>2.93</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Soto-Vegabaño - Senda del Arcediano - Enlace</Nombre>
+    <Longitud_km>0.09</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Refugio de Vegarredonda-Refugio de Vegabaño - Vega de Llos - Enlace</Nombre>
+    <Longitud_km>1.53</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Farfada - Principal</Nombre>
+    <Longitud_km>6.73</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta del Cares - Principal</Nombre>
+    <Longitud_km>20.53</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cueva de Santibañas (Ruta corta) - Principal</Nombre>
+    <Longitud_km>1.74</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Sierra de Cocón (Oceño-Tresviso) - Principal</Nombre>
+    <Longitud_km>13.08</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Refugio de Vega de Urriellu-Refugio de Collado Jermoso (Por Tiro Casares) - Principal</Nombre>
+    <Longitud_km>8.93</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Peña Oviedo (El Cable-Mogrovejo) - Principal</Nombre>
+    <Longitud_km>15.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Vega de Llos - Principal</Nombre>
+    <Longitud_km>12.71</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Hayedo de Las Ilces - Principal</Nombre>
+    <Longitud_km>11.61</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Vega de Urriellu - Principal</Nombre>
+    <Longitud_km>20.85</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Macizo de Ándara - Principal</Nombre>
+    <Longitud_km>27.63</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Macizo de Ándara - Derivación</Nombre>
+    <Longitud_km>0.16</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Los Valles de Conangles y Rius - Principal</Nombre>
+    <Longitud_km>20.72</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino de Sant Maurici al Portarró d'Espot - Principal</Nombre>
+    <Longitud_km>0.41</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Hacia las Agulles d’Amitges - Principal</Nombre>
+    <Longitud_km>4.49</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino del Estany Llong y el Portarró d'Espot - Principal</Nombre>
+    <Longitud_km>7.94</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino del Estany Llong y el Portarró d'Espot - Derivación</Nombre>
+    <Longitud_km>2.78</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino al Estany de Sant Maurici - Principal</Nombre>
+    <Longitud_km>3.67</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Circuito de Aigüestortes - Principal</Nombre>
+    <Longitud_km>1.28</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Un valle colgado: Gerber - Principal</Nombre>
+    <Longitud_km>7.9</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Los Estanys Gémena - Principal</Nombre>
+    <Longitud_km>8.72</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de los abetos: La Mata y El Gerdar - Principal</Nombre>
+    <Longitud_km>4.93</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Gran Circ de Colomèrs - Principal</Nombre>
+    <Longitud_km>14.58</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Clot de la Mainera - Principal</Nombre>
+    <Longitud_km>5.56</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Hacia los Estanys del Pessó - Principal</Nombre>
+    <Longitud_km>8.33</Longitud_km>
+  </row>
+  <row>
+    <Nombre>La Vall de Monestero - Principal</Nombre>
+    <Longitud_km>2.39</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El mirador del Estany de Sant Maurici - Principal</Nombre>
+    <Longitud_km>6.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>A caballo de las montañas - Principal</Nombre>
+    <Longitud_km>7.55</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Cascada de Gerber - Principal</Nombre>
+    <Longitud_km>5.38</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de la Nutria (Llúdriga): hacia Llebreta y Aigüestortes - Principal</Nombre>
+    <Longitud_km>6.46</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de la Nutria (Llúdriga): hacia Llebreta y Aigüestortes - Variante</Nombre>
+    <Longitud_km>2.54</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino de Rus - Principal</Nombre>
+    <Longitud_km>21.41</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Valle del Estany Tort - Principal</Nombre>
+    <Longitud_km>11.44</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Camino del Estany Saburó - Principal</Nombre>
+    <Longitud_km>8.8</Longitud_km>
+  </row>
+  <row>
+    <Nombre>El Valle de Besiberri - Principal</Nombre>
+    <Longitud_km>6.92</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Travesia de los Refugios - Principal</Nombre>
+    <Longitud_km>53.57</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Travesia de los Refugios - Derivación</Nombre>
+    <Longitud_km>0.01</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Travesia de los Refugios - Derivación</Nombre>
+    <Longitud_km>2.66</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Travesia de los Refugios - Derivación</Nombre>
+    <Longitud_km>5.0</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta de la Marmota: hacia el Estany Negre - Principal</Nombre>
+    <Longitud_km>9.2</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Enlace Ruta de la Marmota - Travesía de los Refugios - Enlace</Nombre>
+    <Longitud_km>0.12</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Azul. Villarreal de San Carlos a Malpartida de Plasencia - Principal</Nombre>
+    <Longitud_km>19.19</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Negra. Camino de Barbaón - Principal</Nombre>
+    <Longitud_km>24.51</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta a Toril y Serrejón - Principal</Nombre>
+    <Longitud_km>32.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Marrón. Camino vecinal a Serradilla - Principal</Nombre>
+    <Longitud_km>12.77</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Amarilla. Mirador de El Serrano-Tajadilla - Principal</Nombre>
+    <Longitud_km>9.36</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Morada. Villarreal de San Carlos a Torrejón el Rubio - Principal</Nombre>
+    <Longitud_km>11.24</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Verde. Arroyo Malvecino-Cerro Gimio - Principal</Nombre>
+    <Longitud_km>8.59</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Verde. Arroyo Malvecino-Cerro Gimio - Variante</Nombre>
+    <Longitud_km>0.43</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Principal</Nombre>
+    <Longitud_km>12.96</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Variante</Nombre>
+    <Longitud_km>1.3</Longitud_km>
+  </row>
+  <row>
+    <Nombre>Ruta Roja. Villarreal de San Carlos-Castillo de Monfragüe - Derivación</Nombre>
+    <Longitud_km>1.82</Longitud_km>
+  </row>
+</data>

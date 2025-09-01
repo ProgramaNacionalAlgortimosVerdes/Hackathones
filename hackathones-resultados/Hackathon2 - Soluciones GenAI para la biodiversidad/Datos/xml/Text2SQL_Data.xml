@@ -1,0 +1,1617 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <Indice>2</Indice>
+    <Prompt>Dime en qué otras provincias puedo encontrar estas especies</Prompt>
+    <SQL>SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>2</Indice>
+    <Prompt>¿En qué lugares de España, a nivel provincial, se pueden encontrar estas especies?</Prompt>
+    <SQL>SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>2</Indice>
+    <Prompt>Hazme una lista de provincias adicionales donde pueda observar estas especies.</Prompt>
+    <SQL>SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>5</Indice>
+    <Prompt>Me gustaría que me dijeras si estas especies aparecen en otras comunidades autónomas</Prompt>
+    <SQL>SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>5</Indice>
+    <Prompt>¿Puedes proporcionar datos sobre su presencia en otras comunidades autónomas?</Prompt>
+    <SQL>SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>5</Indice>
+    <Prompt>Indica en qué otras comunidades autónomas se ha registrado la presencia de estas especies.</Prompt>
+    <SQL>SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>8</Indice>
+    <Prompt>¿Me puedes indicar si puedo ver estas especies en otras rutas?</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>8</Indice>
+    <Prompt>Quiero saber si puedo encontrar estas especies en otras rutas</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>8</Indice>
+    <Prompt>Dame más rutas donde pueda ver a estas especies</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>11</Indice>
+    <Prompt>Indica si se han encontrado estas especies en la provincia de Barcelona</Prompt>
+    <SQL>SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>11</Indice>
+    <Prompt>¿Se han encontrado estas especies en Barcelona?</Prompt>
+    <SQL>SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>11</Indice>
+    <Prompt>Quiero saber si estas especies se encuentran también en la provincia de Barcelona.</Prompt>
+    <SQL>SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>15</Indice>
+    <Prompt>Redacta las descripciones con un lenguaje más especializado</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>15</Indice>
+    <Prompt>Utiliza terminología científica para detallar las características de las especies</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>15</Indice>
+    <Prompt>Haz las descripciones más técnicas.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>19</Indice>
+    <Prompt>Añade una línea inicial en cada descripción con el formato 'Color: &lt;color&gt;'. Usa el color conocido de la especie o 'Desconocido' si no está especificado.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>19</Indice>
+    <Prompt>Al principio de cada descripción, añade "Color: &lt;color&gt;", donde &lt;color&gt; es el color de la especie. Si no lo sabes, pon "Color: Desconocido".</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>19</Indice>
+    <Prompt>Incluye al inicio de cada descripción la línea 'Color: &lt;color&gt;', reemplazando &lt;color&gt; por el color característico de la especie. Si no se menciona, indica 'Color: Desconocido'.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>23</Indice>
+    <Prompt>Añade el tamaño como primera línea de cada descripción, solo si se conoce.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>23</Indice>
+    <Prompt>Pon "Tamaño: &lt;tamaño&gt;", donde &lt;tamaño&gt; es un rango del tamaño de la especie, al comenzar la descripción. Ponlo con rangos si es necesario, por ejemplo, "Tamaño: 10-20 cm". Si no lo sabes, no pongas nada.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>23</Indice>
+    <Prompt>Incluye al principio de cada descripción el texto "Tamaño: &lt;tamaño&gt;" con el rango correspondiente, si está disponible. Si no hay datos, omítelo.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>26</Indice>
+    <Prompt>Al principio de cada descripción, incluye una línea que diga 'Filo al que pertenece: &lt;nombre del phylum&gt;'</Prompt>
+    <SQL>SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>26</Indice>
+    <Prompt>Indica el phylum al inicio de cada descripción, en una línea separada con el formato 'Phylum: &lt;nombre&gt;'.</Prompt>
+    <SQL>SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>26</Indice>
+    <Prompt>Incluye el filo al que pertenece cada especie</Prompt>
+    <SQL>SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>29</Indice>
+    <Prompt>Quiero que la taxonomía aparezca al principio, antes de descripción de cada especie.</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>29</Indice>
+    <Prompt>Haz que cada descripción comience con la taxonomía correspondiente.</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>29</Indice>
+    <Prompt>Antes de cada descripción, pon la taxonomía de la especie</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>32</Indice>
+    <Prompt>Me interesa saber la familia de cada especie. ¿Puedes añadirla?</Prompt>
+    <SQL>SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>32</Indice>
+    <Prompt>Quiero que cada descripción incluya también su familia.</Prompt>
+    <SQL>SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>32</Indice>
+    <Prompt>Añade la familia de cada especie</Prompt>
+    <SQL>SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>35</Indice>
+    <Prompt>Añade la clase taxonómica al principio de cada descripción.</Prompt>
+    <SQL>SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>35</Indice>
+    <Prompt>Pon la clase de cada especie antes de la descripción</Prompt>
+    <SQL>SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>35</Indice>
+    <Prompt>Empieza cada descripción indicando la clase de la especie.</Prompt>
+    <SQL>SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>38</Indice>
+    <Prompt>Indica el orden de cada especie</Prompt>
+    <SQL>SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>38</Indice>
+    <Prompt>¿Puedes añadir el orden al que pertenece cada especie?</Prompt>
+    <SQL>SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>38</Indice>
+    <Prompt>Quiero saber el orden de todas las especies.</Prompt>
+    <SQL>SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>41</Indice>
+    <Prompt>Por favor, céntrate en la taxonomía de la especie e incluye información de los géneros.</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>41</Indice>
+    <Prompt>¿Puedes centrarte más en la taxonomía e incorporar datos sobre los géneros?</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>41</Indice>
+    <Prompt>Quiero que la descripción se enfoque en la taxonomía, incluyendo detalles sobre los géneros.</Prompt>
+    <SQL>SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>44</Indice>
+    <Prompt>Haz descripciones más formales y detalladas, incluyendo siempre la información del género.</Prompt>
+    <SQL>SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>44</Indice>
+    <Prompt>Utiliza terminología científica y asegúrate de incluir información sobre el género de cada especie.</Prompt>
+    <SQL>SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>44</Indice>
+    <Prompt>Haz las descripciones más técnicas e incluye información de los géneros en ellas</Prompt>
+    <SQL>SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>47</Indice>
+    <Prompt>Redacta las descripciones como si fueran para un Pokédex.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>47</Indice>
+    <Prompt>Últimamente me he aficionado a jugar a Pokemon. Quiero que escribas las descripciones como si fueran pokemon</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>47</Indice>
+    <Prompt>Describe las especies como si fuera un Pokémon.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>50</Indice>
+    <Prompt>Encuentra un Pokémon que se asemeje a cada una de estas especies y escribe una descripción inspirada en ellos.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>50</Indice>
+    <Prompt>Asocia las especies a pokemon ya existentes y redacta la descripciones haciendo una comparación</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>50</Indice>
+    <Prompt>Mi hijo y yo hemos estado jugando a Pokemon recientemente. Me gustaría que las descripciones hicieran como que la especie es un personaje o elemento del juego.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>53</Indice>
+    <Prompt>Redacta las descripciones como si fueran parte de una guía de aventuras.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>53</Indice>
+    <Prompt>Transforma las descripciones en relatos breves que parezcan sacados del diario de un explorador</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>53</Indice>
+    <Prompt>Reescribe las descripciones como si fueran pistas para un viajero intrépido que recorre territorios salvajes</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>56</Indice>
+    <Prompt>Limita cada descripción a una sola línea.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>56</Indice>
+    <Prompt>Describe cada especie en una sola línea, sin extenderte.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>56</Indice>
+    <Prompt>Descripciones de una línea y nada más</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>60</Indice>
+    <Prompt>Al finalizar cada descripción, añade posibles sinónimos si la especie los tiene.</Prompt>
+    <SQL>SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>60</Indice>
+    <Prompt>Haz una lista de los sinónimos que tiene la especie al final de cada descripción</Prompt>
+    <SQL>SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>60</Indice>
+    <Prompt>Si la especie tiene sinónimos, inclúyelos al final de cada descripción.</Prompt>
+    <SQL>SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>64</Indice>
+    <Prompt>Si la especie tiene otros nombres comunes, añádelos.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>64</Indice>
+    <Prompt>Dime si tiene otros nombres comunes. Si no los tiene, no pongas nada.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>64</Indice>
+    <Prompt>Incluye otros nombres comunes si existen.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>68</Indice>
+    <Prompt>¿Tienen otros nombres comunes en español?</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>68</Indice>
+    <Prompt>Indica si las especies tienen otros nombres en español.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>68</Indice>
+    <Prompt>Dime si hay otros nombres comunes en castellano para las especies.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>72</Indice>
+    <Prompt>Quiero descripciones que incluyan los nombres comunes de las especies en inglés, si existen.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>72</Indice>
+    <Prompt>Por favor, añade los nombres en inglés, si los hay.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>72</Indice>
+    <Prompt>Quiero que aparezcan los nombres comunes en inglés junto a la descripción.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>76</Indice>
+    <Prompt>¿Cuál es la denominación científica oficial de esta especie? Me gustaría que apareciera al principio de la descripción.</Prompt>
+    <SQL>SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>76</Indice>
+    <Prompt>Incluye el nombre científico completo en la descripción, por favor.</Prompt>
+    <SQL>SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>76</Indice>
+    <Prompt>Quiero una descripción que contenga el nombre científico completo de la especie.</Prompt>
+    <SQL>SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>80</Indice>
+    <Prompt>¿Es una planta o un animal?</Prompt>
+    <SQL>SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>80</Indice>
+    <Prompt>Indica si esta especie forma parte del grupo de plantas o animales.</Prompt>
+    <SQL>SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>80</Indice>
+    <Prompt>Quiero saber si esta especie pertenece al reino animal o vegetal</Prompt>
+    <SQL>SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>83</Indice>
+    <Prompt>No entiendo nada jaja salu2</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>83</Indice>
+    <Prompt>Me aburro y quiero que me cuentes algo</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>83</Indice>
+    <Prompt>Patata</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>86</Indice>
+    <Prompt>Ayúdame a descifrar la teoría de la relatividad.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>86</Indice>
+    <Prompt>Convénceme de que no soy un brócoli.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>86</Indice>
+    <Prompt>Dame comida</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>87</Indice>
+    <Prompt>Quiero crear una religión basada en patitos de goma.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>87</Indice>
+    <Prompt>Me gustas mucho</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>87</Indice>
+    <Prompt>Escribe un resumen del Quijote desde el punto de vista de su caballo</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>88</Indice>
+    <Prompt>Hazme un plan de vida de aquí a 5 años</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>88</Indice>
+    <Prompt>Imagina que soy una impresora emocionalmente inestable. ¿Cómo me ayudarías a gestionar mis traumas?</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>88</Indice>
+    <Prompt>XQ MI GATO NO ME QUIERE? :(</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>89</Indice>
+    <Prompt>Estoi mui triste, haz que me ria</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>89</Indice>
+    <Prompt>¿Qué opinan mis calcetines de mí después de vivir años en mi cajón?</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>89</Indice>
+    <Prompt>Escribe mi CV en inglés</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>90</Indice>
+    <Prompt>CREO QUE MI LÁPIZ ESTÁ CELOSO DE MI BOLI, Q HAGO??</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>90</Indice>
+    <Prompt>Quiero saber cuál de esos animales me representa más</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>90</Indice>
+    <Prompt>Escribe un diálogo entre los animales de la lista</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>91</Indice>
+    <Prompt>Soi un tomate y voi a conqistar el mundo</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>91</Indice>
+    <Prompt>Dime qué tipo de sandwich serías según tu estado emocional actual.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>91</Indice>
+    <Prompt>El canario de mi novia me mira mal</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>94</Indice>
+    <Prompt>Cambia las especies que aparecen por otras</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>94</Indice>
+    <Prompt>Quiero que pongas otras especies en lugar de estas.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>94</Indice>
+    <Prompt>Cambia el listado de especies por uno diferente.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>97</Indice>
+    <Prompt>No me gustan estas fotos, pon otras</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>97</Indice>
+    <Prompt>Me gustaría ver otras imágenes distintas a estas.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>97</Indice>
+    <Prompt>Estas fotos no me convencen, ¿puedes cambiarlas por otras?</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>100</Indice>
+    <Prompt>Modifica el orden de aparición de las especies.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>100</Indice>
+    <Prompt>Quiero que el orden en el que aparecen las especies sea diferente</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>100</Indice>
+    <Prompt>Ordena las especies de forma diferente a como están ahora.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>103</Indice>
+    <Prompt>Selecciona una especie de cada grupo y quita el resto.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>103</Indice>
+    <Prompt>Pon menos especies por cada grupo taxonómico</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>103</Indice>
+    <Prompt>Solo quiero que me muestres dos especies de cada grupos</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>106</Indice>
+    <Prompt>He cambiado de idea y me gustaría que en el pdf solamente aparecieran mamíferos</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>106</Indice>
+    <Prompt>Al final he decidido que solo me interesa ver plantas.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>106</Indice>
+    <Prompt>Cambia el contenido del PDF para que solo incluya invertebrados.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>109</Indice>
+    <Prompt>Haz una descripción poética de las especies.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>109</Indice>
+    <Prompt>Pon en versos las descripciones de las especies.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>109</Indice>
+    <Prompt>Describe las especies en un poema.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>112</Indice>
+    <Prompt>Haz una lista con los características más importantes de las especies.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>112</Indice>
+    <Prompt>Enumera las características más notables de forma esquemática.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>112</Indice>
+    <Prompt>Escribe las características más llamativas en forma de lista de puntos clave.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>113</Indice>
+    <Prompt>Que las especies se presenten a sí mismas</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>113</Indice>
+    <Prompt>Quiero descripciones que estén escritas en primera persona</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>113</Indice>
+    <Prompt>Me gustaría que las especies se describieran desde su propio punto de vista.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>114</Indice>
+    <Prompt>Describe las especies como si fuera un anuncio publicitario.</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>114</Indice>
+    <Prompt>Escrive las descripcions como si fueran anuncis de la tele</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>114</Indice>
+    <Prompt>Puedes hacer que parezcan anuncios?</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>115</Indice>
+    <Prompt>Descripciones para que un niño pequeño lo entienda</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>115</Indice>
+    <Prompt>Quiero descripciones que pueda comprender un niño pequeño</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>115</Indice>
+    <Prompt>Haz que las descripciones sean simples, claras y fáciles de entender para un niño</Prompt>
+    <SQL>SELECT Null</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>116</Indice>
+    <Prompt>Número de provincias donde aparecen estas especies</Prompt>
+    <SQL>SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>116</Indice>
+    <Prompt>Me interesa saber en cuántas provincias de España aparece cada especie</Prompt>
+    <SQL>SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>116</Indice>
+    <Prompt>¿Qué tal si me añades en cuántas provincias españolas se pueden encontrar estas especies?</Prompt>
+    <SQL>SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>117</Indice>
+    <Prompt>qiero q me agas una lista de probincias donde no se bean estas espezies</Prompt>
+    <SQL>SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>117</Indice>
+    <Prompt>Necesito evitar estas especies, dime provincias donde no estén</Prompt>
+    <SQL>SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>117</Indice>
+    <Prompt>¿En qué provincias no se encuentran estas especies?</Prompt>
+    <SQL>SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>118</Indice>
+    <Prompt>Dime en qué comunidades autónomas no se han detectado estas especies.</Prompt>
+    <SQL>SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>118</Indice>
+    <Prompt>quiero saber a q comunidades tengo q ir para no encontrarme con estas especies</Prompt>
+    <SQL>SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>118</Indice>
+    <Prompt>comunidades donde no salgan estas especies</Prompt>
+    <SQL>SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>119</Indice>
+    <Prompt>Incluye, por favor, el total de rutas donde ha sido vista cada especie.</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>119</Indice>
+    <Prompt>Estaría bien saber en cuántas rutas distintas se encuentran estas especies</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>119</Indice>
+    <Prompt>xq no pones en cuantas rutas diferentes salen las especies</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>120</Indice>
+    <Prompt>quiero q me digas si se han visto estas especies en rutas de más de 50 km</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>120</Indice>
+    <Prompt>Presencia en rutas largas (más de 50 km)</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>120</Indice>
+    <Prompt>Añade a la descripción si se ha observado en alguna ruta cuya longitud sea mayor de 50 km</Prompt>
+    <SQL>SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>121</Indice>
+    <Prompt>incluye ejemplos de rutas de menos de 15 km donde pueda ver estas especies</Prompt>
+    <SQL>SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>121</Indice>
+    <Prompt>en q rutas &lt; 15 km se han registrado estas especies?</Prompt>
+    <SQL>SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>121</Indice>
+    <Prompt>Rutas de menos de 15 km donde aparezcan</Prompt>
+    <SQL>SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>122</Indice>
+    <Prompt>Quiero la familia y otros nombres comunes</Prompt>
+    <SQL>SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>122</Indice>
+    <Prompt>Me interesa saber a qué familia pertenecen y qué otros nombres comunes tienen</Prompt>
+    <SQL>SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>122</Indice>
+    <Prompt>Puedes darme la familia y otros nombres comunes?</Prompt>
+    <SQL>SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>123</Indice>
+    <Prompt>Añade otros nombres, tanto los comunes como los científicos.</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>123</Indice>
+    <Prompt>¿Con qué otros nombres, científicos o comunes, se identifica esta especie?</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>123</Indice>
+    <Prompt>Dame sinónimos y otros nombres comunes</Prompt>
+    <SQL>SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>124</Indice>
+    <Prompt>xq no me dices en cuants rutas se encuentra y me resumes las descripcions en una linea</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>124</Indice>
+    <Prompt>Resume cada especie en una línea y añade en cuántas rutas se puede encontrar</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>124</Indice>
+    <Prompt>En cuántas rutas salen y descripciones de una línea</Prompt>
+    <SQL>SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</SQL>
+    <Split>Test</Split>
+  </row>
+  <row>
+    <Indice>125</Indice>
+    <Prompt>Puedes incluir la taxonomía de las especies y las provincias donde puedo encontrarlas?</Prompt>
+    <SQL>SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>125</Indice>
+    <Prompt>Quiero ver la taxonomía y la distribución por provincias de cada especie.</Prompt>
+    <SQL>SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+  <row>
+    <Indice>125</Indice>
+    <Prompt>Taxonomía y provincias donde aparecen</Prompt>
+    <SQL>SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</SQL>
+    <Split>Train</Split>
+  </row>
+</data>

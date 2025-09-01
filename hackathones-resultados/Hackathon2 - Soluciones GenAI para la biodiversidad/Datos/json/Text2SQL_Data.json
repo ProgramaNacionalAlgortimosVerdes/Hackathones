@@ -1,0 +1,920 @@
+[
+    {
+        "Indice":2,
+        "Prompt":"Dime en qu\u00e9 otras provincias puedo encontrar estas especies",
+        "SQL":"SELECT DISTINCT\n    c.Provincia\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    },
+    {
+        "Indice":2,
+        "Prompt":"\u00bfEn qu\u00e9 lugares de Espa\u00f1a, a nivel provincial, se pueden encontrar estas especies?",
+        "SQL":"SELECT DISTINCT\n    c.Provincia\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    },
+    {
+        "Indice":2,
+        "Prompt":"Hazme una lista de provincias adicionales donde pueda observar estas especies.",
+        "SQL":"SELECT DISTINCT\n    c.Provincia\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    },
+    {
+        "Indice":5,
+        "Prompt":"Me gustar\u00eda que me dijeras si estas especies aparecen en otras comunidades aut\u00f3nomas",
+        "SQL":"SELECT DISTINCT\n    c.CCAA\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":5,
+        "Prompt":"\u00bfPuedes proporcionar datos sobre su presencia en otras comunidades aut\u00f3nomas?",
+        "SQL":"SELECT DISTINCT\n    c.CCAA\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":5,
+        "Prompt":"Indica en qu\u00e9 otras comunidades aut\u00f3nomas se ha registrado la presencia de estas especies.",
+        "SQL":"SELECT DISTINCT\n    c.CCAA\nFROM\n    CuadriculasEspecies ce\nJOIN\n    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":8,
+        "Prompt":"\u00bfMe puedes indicar si puedo ver estas especies en otras rutas?",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":8,
+        "Prompt":"Quiero saber si puedo encontrar estas especies en otras rutas",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":8,
+        "Prompt":"Dame m\u00e1s rutas donde pueda ver a estas especies",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":11,
+        "Prompt":"Indica si se han encontrado estas especies en la provincia de Barcelona",
+        "SQL":"SELECT\n    c.CCAA,\n    c.Provincia\nFROM\n    CuadriculasEspecies AS ce\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon> AND c.Provincia = 'Barcelona'",
+        "Split":"Train"
+    },
+    {
+        "Indice":11,
+        "Prompt":"\u00bfSe han encontrado estas especies en Barcelona?",
+        "SQL":"SELECT\n    c.CCAA,\n    c.Provincia\nFROM\n    CuadriculasEspecies AS ce\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon> AND c.Provincia = 'Barcelona'",
+        "Split":"Train"
+    },
+    {
+        "Indice":11,
+        "Prompt":"Quiero saber si estas especies se encuentran tambi\u00e9n en la provincia de Barcelona.",
+        "SQL":"SELECT\n    c.CCAA,\n    c.Provincia\nFROM\n    CuadriculasEspecies AS ce\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    ce.idtaxon = <idtaxon> AND c.Provincia = 'Barcelona'",
+        "Split":"Train"
+    },
+    {
+        "Indice":15,
+        "Prompt":"Redacta las descripciones con un lenguaje m\u00e1s especializado",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":15,
+        "Prompt":"Utiliza terminolog\u00eda cient\u00edfica para detallar las caracter\u00edsticas de las especies",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":15,
+        "Prompt":"Haz las descripciones m\u00e1s t\u00e9cnicas.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":19,
+        "Prompt":"A\u00f1ade una l\u00ednea inicial en cada descripci\u00f3n con el formato 'Color: <color>'. Usa el color conocido de la especie o 'Desconocido' si no est\u00e1 especificado.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":19,
+        "Prompt":"Al principio de cada descripci\u00f3n, a\u00f1ade \"Color: <color>\", donde <color> es el color de la especie. Si no lo sabes, pon \"Color: Desconocido\".",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":19,
+        "Prompt":"Incluye al inicio de cada descripci\u00f3n la l\u00ednea 'Color: <color>', reemplazando <color> por el color caracter\u00edstico de la especie. Si no se menciona, indica 'Color: Desconocido'.",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":23,
+        "Prompt":"A\u00f1ade el tama\u00f1o como primera l\u00ednea de cada descripci\u00f3n, solo si se conoce.",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":23,
+        "Prompt":"Pon \"Tama\u00f1o: <tama\u00f1o>\", donde <tama\u00f1o> es un rango del tama\u00f1o de la especie, al comenzar la descripci\u00f3n. Ponlo con rangos si es necesario, por ejemplo, \"Tama\u00f1o: 10-20 cm\". Si no lo sabes, no pongas nada.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":23,
+        "Prompt":"Incluye al principio de cada descripci\u00f3n el texto \"Tama\u00f1o: <tama\u00f1o>\" con el rango correspondiente, si est\u00e1 disponible. Si no hay datos, om\u00edtelo.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":26,
+        "Prompt":"Al principio de cada descripci\u00f3n, incluye una l\u00ednea que diga 'Filo al que pertenece: <nombre del phylum>'",
+        "SQL":"SELECT\n    t.phylum\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":26,
+        "Prompt":"Indica el phylum al inicio de cada descripci\u00f3n, en una l\u00ednea separada con el formato 'Phylum: <nombre>'.",
+        "SQL":"SELECT\n    t.phylum\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":26,
+        "Prompt":"Incluye el filo al que pertenece cada especie",
+        "SQL":"SELECT\n    t.phylum\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":29,
+        "Prompt":"Quiero que la taxonom\u00eda aparezca al principio, antes de descripci\u00f3n de cada especie.",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.origen,\n    t.taxonomicgroup,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus,\n    t.subgenus,\n    t.nametype\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":29,
+        "Prompt":"Haz que cada descripci\u00f3n comience con la taxonom\u00eda correspondiente.",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.origen,\n    t.taxonomicgroup,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus,\n    t.subgenus,\n    t.nametype\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":29,
+        "Prompt":"Antes de cada descripci\u00f3n, pon la taxonom\u00eda de la especie",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.origen,\n    t.taxonomicgroup,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus,\n    t.subgenus,\n    t.nametype\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":32,
+        "Prompt":"Me interesa saber la familia de cada especie. \u00bfPuedes a\u00f1adirla?",
+        "SQL":"SELECT\n    t.family\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":32,
+        "Prompt":"Quiero que cada descripci\u00f3n incluya tambi\u00e9n su familia.",
+        "SQL":"SELECT\n    t.family\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":32,
+        "Prompt":"A\u00f1ade la familia de cada especie",
+        "SQL":"SELECT\n    t.family\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":35,
+        "Prompt":"A\u00f1ade la clase taxon\u00f3mica al principio de cada descripci\u00f3n.",
+        "SQL":"SELECT\n    t.class\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":35,
+        "Prompt":"Pon la clase de cada especie antes de la descripci\u00f3n",
+        "SQL":"SELECT\n    t.class\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":35,
+        "Prompt":"Empieza cada descripci\u00f3n indicando la clase de la especie.",
+        "SQL":"SELECT\n    t.class\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":38,
+        "Prompt":"Indica el orden de cada especie",
+        "SQL":"SELECT\n    t.taxonorder\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":38,
+        "Prompt":"\u00bfPuedes a\u00f1adir el orden al que pertenece cada especie?",
+        "SQL":"SELECT\n    t.taxonorder\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":38,
+        "Prompt":"Quiero saber el orden de todas las especies.",
+        "SQL":"SELECT\n    t.taxonorder\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":41,
+        "Prompt":"Por favor, c\u00e9ntrate en la taxonom\u00eda de la especie e incluye informaci\u00f3n de los g\u00e9neros.",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":41,
+        "Prompt":"\u00bfPuedes centrarte m\u00e1s en la taxonom\u00eda e incorporar datos sobre los g\u00e9neros?",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":41,
+        "Prompt":"Quiero que la descripci\u00f3n se enfoque en la taxonom\u00eda, incluyendo detalles sobre los g\u00e9neros.",
+        "SQL":"SELECT\n    t.taxonid,\n    t.name AS nombre_cientifico,\n    t.taxonrank,\n    t.kingdom,\n    t.phylum,\n    t.class,\n    t.taxonorder,\n    t.family,\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":44,
+        "Prompt":"Haz descripciones m\u00e1s formales y detalladas, incluyendo siempre la informaci\u00f3n del g\u00e9nero.",
+        "SQL":"SELECT\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":44,
+        "Prompt":"Utiliza terminolog\u00eda cient\u00edfica y aseg\u00farate de incluir informaci\u00f3n sobre el g\u00e9nero de cada especie.",
+        "SQL":"SELECT\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":44,
+        "Prompt":"Haz las descripciones m\u00e1s t\u00e9cnicas e incluye informaci\u00f3n de los g\u00e9neros en ellas",
+        "SQL":"SELECT\n    t.genus\nFROM\n    dbo.Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":47,
+        "Prompt":"Redacta las descripciones como si fueran para un Pok\u00e9dex.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":47,
+        "Prompt":"\u00daltimamente me he aficionado a jugar a Pokemon. Quiero que escribas las descripciones como si fueran pokemon",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":47,
+        "Prompt":"Describe las especies como si fuera un Pok\u00e9mon.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":50,
+        "Prompt":"Encuentra un Pok\u00e9mon que se asemeje a cada una de estas especies y escribe una descripci\u00f3n inspirada en ellos.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":50,
+        "Prompt":"Asocia las especies a pokemon ya existentes y redacta la descripciones haciendo una comparaci\u00f3n",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":50,
+        "Prompt":"Mi hijo y yo hemos estado jugando a Pokemon recientemente. Me gustar\u00eda que las descripciones hicieran como que la especie es un personaje o elemento del juego.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":53,
+        "Prompt":"Redacta las descripciones como si fueran parte de una gu\u00eda de aventuras.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":53,
+        "Prompt":"Transforma las descripciones en relatos breves que parezcan sacados del diario de un explorador",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":53,
+        "Prompt":"Reescribe las descripciones como si fueran pistas para un viajero intr\u00e9pido que recorre territorios salvajes",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":56,
+        "Prompt":"Limita cada descripci\u00f3n a una sola l\u00ednea.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":56,
+        "Prompt":"Describe cada especie en una sola l\u00ednea, sin extenderte.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":56,
+        "Prompt":"Descripciones de una l\u00ednea y nada m\u00e1s",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":60,
+        "Prompt":"Al finalizar cada descripci\u00f3n, a\u00f1ade posibles sin\u00f3nimos si la especie los tiene.",
+        "SQL":"SELECT\n    t.name AS NombreSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>\n    AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":60,
+        "Prompt":"Haz una lista de los sin\u00f3nimos que tiene la especie al final de cada descripci\u00f3n",
+        "SQL":"SELECT\n    t.name AS NombreSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>\n    AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":60,
+        "Prompt":"Si la especie tiene sin\u00f3nimos, incl\u00fayelos al final de cada descripci\u00f3n.",
+        "SQL":"SELECT\n    t.name AS NombreSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon>\n    AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":64,
+        "Prompt":"Si la especie tiene otros nombres comunes, a\u00f1\u00e1delos.",
+        "SQL":"SELECT\n    ne.nombre_comun,\n    ne.idioma\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":64,
+        "Prompt":"Dime si tiene otros nombres comunes. Si no los tiene, no pongas nada.",
+        "SQL":"SELECT\n    ne.nombre_comun,\n    ne.idioma\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":64,
+        "Prompt":"Incluye otros nombres comunes si existen.",
+        "SQL":"SELECT\n    ne.nombre_comun,\n    ne.idioma\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":68,
+        "Prompt":"\u00bfTienen otros nombres comunes en espa\u00f1ol?",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Castellano'\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":68,
+        "Prompt":"Indica si las especies tienen otros nombres en espa\u00f1ol.",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Castellano'\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":68,
+        "Prompt":"Dime si hay otros nombres comunes en castellano para las especies.",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Castellano'\n    AND ne.espreferente = 0;",
+        "Split":"Train"
+    },
+    {
+        "Indice":72,
+        "Prompt":"Quiero descripciones que incluyan los nombres comunes de las especies en ingl\u00e9s, si existen.",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Ingl\u00e9s';",
+        "Split":"Test"
+    },
+    {
+        "Indice":72,
+        "Prompt":"Por favor, a\u00f1ade los nombres en ingl\u00e9s, si los hay.",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Ingl\u00e9s';",
+        "Split":"Test"
+    },
+    {
+        "Indice":72,
+        "Prompt":"Quiero que aparezcan los nombres comunes en ingl\u00e9s junto a la descripci\u00f3n.",
+        "SQL":"SELECT\n    ne.nombre_comun\nFROM\n    NombresEspecies AS ne\nWHERE\n    ne.idtaxon = <idtaxon>\n    AND ne.idioma = 'Ingl\u00e9s';",
+        "Split":"Test"
+    },
+    {
+        "Indice":76,
+        "Prompt":"\u00bfCu\u00e1l es la denominaci\u00f3n cient\u00edfica oficial de esta especie? Me gustar\u00eda que apareciera al principio de la descripci\u00f3n.",
+        "SQL":"SELECT\n    name AS denominacion_cientifica_oficial\nFROM\n    Taxonomia\nWHERE\n    taxonid = <idtaxon> AND nametype = 'Aceptado';",
+        "Split":"Train"
+    },
+    {
+        "Indice":76,
+        "Prompt":"Incluye el nombre cient\u00edfico completo en la descripci\u00f3n, por favor.",
+        "SQL":"SELECT\n    name AS denominacion_cientifica_oficial\nFROM\n    Taxonomia\nWHERE\n    taxonid = <idtaxon> AND nametype = 'Aceptado';",
+        "Split":"Train"
+    },
+    {
+        "Indice":76,
+        "Prompt":"Quiero una descripci\u00f3n que contenga el nombre cient\u00edfico completo de la especie.",
+        "SQL":"SELECT\n    name AS denominacion_cientifica_oficial\nFROM\n    Taxonomia\nWHERE\n    taxonid = <idtaxon> AND nametype = 'Aceptado';",
+        "Split":"Train"
+    },
+    {
+        "Indice":80,
+        "Prompt":"\u00bfEs una planta o un animal?",
+        "SQL":"SELECT kingdom\nFROM dbo.Taxonomia\nWHERE taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":80,
+        "Prompt":"Indica si esta especie forma parte del grupo de plantas o animales.",
+        "SQL":"SELECT kingdom\nFROM dbo.Taxonomia\nWHERE taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":80,
+        "Prompt":"Quiero saber si esta especie pertenece al reino animal o vegetal",
+        "SQL":"SELECT kingdom\nFROM dbo.Taxonomia\nWHERE taxonid = <idtaxon>;",
+        "Split":"Train"
+    },
+    {
+        "Indice":83,
+        "Prompt":"No entiendo nada jaja salu2",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":83,
+        "Prompt":"Me aburro y quiero que me cuentes algo",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":83,
+        "Prompt":"Patata",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":86,
+        "Prompt":"Ay\u00fadame a descifrar la teor\u00eda de la relatividad.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":86,
+        "Prompt":"Conv\u00e9nceme de que no soy un br\u00f3coli.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":86,
+        "Prompt":"Dame comida",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":87,
+        "Prompt":"Quiero crear una religi\u00f3n basada en patitos de goma.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":87,
+        "Prompt":"Me gustas mucho",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":87,
+        "Prompt":"Escribe un resumen del Quijote desde el punto de vista de su caballo",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":88,
+        "Prompt":"Hazme un plan de vida de aqu\u00ed a 5 a\u00f1os",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":88,
+        "Prompt":"Imagina que soy una impresora emocionalmente inestable. \u00bfC\u00f3mo me ayudar\u00edas a gestionar mis traumas?",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":88,
+        "Prompt":"XQ MI GATO NO ME QUIERE? :(",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":89,
+        "Prompt":"Estoi mui triste, haz que me ria",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":89,
+        "Prompt":"\u00bfQu\u00e9 opinan mis calcetines de m\u00ed despu\u00e9s de vivir a\u00f1os en mi caj\u00f3n?",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":89,
+        "Prompt":"Escribe mi CV en ingl\u00e9s",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":90,
+        "Prompt":"CREO QUE MI L\u00c1PIZ EST\u00c1 CELOSO DE MI BOLI, Q HAGO??",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":90,
+        "Prompt":"Quiero saber cu\u00e1l de esos animales me representa m\u00e1s",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":90,
+        "Prompt":"Escribe un di\u00e1logo entre los animales de la lista",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":91,
+        "Prompt":"Soi un tomate y voi a conqistar el mundo",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":91,
+        "Prompt":"Dime qu\u00e9 tipo de sandwich ser\u00edas seg\u00fan tu estado emocional actual.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":91,
+        "Prompt":"El canario de mi novia me mira mal",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":94,
+        "Prompt":"Cambia las especies que aparecen por otras",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":94,
+        "Prompt":"Quiero que pongas otras especies en lugar de estas.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":94,
+        "Prompt":"Cambia el listado de especies por uno diferente.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":97,
+        "Prompt":"No me gustan estas fotos, pon otras",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":97,
+        "Prompt":"Me gustar\u00eda ver otras im\u00e1genes distintas a estas.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":97,
+        "Prompt":"Estas fotos no me convencen, \u00bfpuedes cambiarlas por otras?",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":100,
+        "Prompt":"Modifica el orden de aparici\u00f3n de las especies.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":100,
+        "Prompt":"Quiero que el orden en el que aparecen las especies sea diferente",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":100,
+        "Prompt":"Ordena las especies de forma diferente a como est\u00e1n ahora.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":103,
+        "Prompt":"Selecciona una especie de cada grupo y quita el resto.",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":103,
+        "Prompt":"Pon menos especies por cada grupo taxon\u00f3mico",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":103,
+        "Prompt":"Solo quiero que me muestres dos especies de cada grupos",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":106,
+        "Prompt":"He cambiado de idea y me gustar\u00eda que en el pdf solamente aparecieran mam\u00edferos",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":106,
+        "Prompt":"Al final he decidido que solo me interesa ver plantas.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":106,
+        "Prompt":"Cambia el contenido del PDF para que solo incluya invertebrados.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":109,
+        "Prompt":"Haz una descripci\u00f3n po\u00e9tica de las especies.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":109,
+        "Prompt":"Pon en versos las descripciones de las especies.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":109,
+        "Prompt":"Describe las especies en un poema.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":112,
+        "Prompt":"Haz una lista con los caracter\u00edsticas m\u00e1s importantes de las especies.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":112,
+        "Prompt":"Enumera las caracter\u00edsticas m\u00e1s notables de forma esquem\u00e1tica.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":112,
+        "Prompt":"Escribe las caracter\u00edsticas m\u00e1s llamativas en forma de lista de puntos clave.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":113,
+        "Prompt":"Que las especies se presenten a s\u00ed mismas",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":113,
+        "Prompt":"Quiero descripciones que est\u00e9n escritas en primera persona",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":113,
+        "Prompt":"Me gustar\u00eda que las especies se describieran desde su propio punto de vista.",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":114,
+        "Prompt":"Describe las especies como si fuera un anuncio publicitario.",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":114,
+        "Prompt":"Escrive las descripcions como si fueran anuncis de la tele",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":114,
+        "Prompt":"Puedes hacer que parezcan anuncios?",
+        "SQL":"SELECT Null",
+        "Split":"Test"
+    },
+    {
+        "Indice":115,
+        "Prompt":"Descripciones para que un ni\u00f1o peque\u00f1o lo entienda",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":115,
+        "Prompt":"Quiero descripciones que pueda comprender un ni\u00f1o peque\u00f1o",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":115,
+        "Prompt":"Haz que las descripciones sean simples, claras y f\u00e1ciles de entender para un ni\u00f1o",
+        "SQL":"SELECT Null",
+        "Split":"Train"
+    },
+    {
+        "Indice":116,
+        "Prompt":"N\u00famero de provincias donde aparecen estas especies",
+        "SQL":"SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias\nFROM CuadriculasEspecies ce\nJOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":116,
+        "Prompt":"Me interesa saber en cu\u00e1ntas provincias de Espa\u00f1a aparece cada especie",
+        "SQL":"SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias\nFROM CuadriculasEspecies ce\nJOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":116,
+        "Prompt":"\u00bfQu\u00e9 tal si me a\u00f1ades en cu\u00e1ntas provincias espa\u00f1olas se pueden encontrar estas especies?",
+        "SQL":"SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias\nFROM CuadriculasEspecies ce\nJOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\nWHERE ce.idtaxon = <idtaxon>",
+        "Split":"Train"
+    },
+    {
+        "Indice":117,
+        "Prompt":"qiero q me agas una lista de probincias donde no se bean estas espezies",
+        "SQL":"SELECT DISTINCT Provincia\nFROM Cuadriculas\nWHERE Provincia NOT IN (\n    SELECT DISTINCT c.Provincia\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":117,
+        "Prompt":"Necesito evitar estas especies, dime provincias donde no est\u00e9n",
+        "SQL":"SELECT DISTINCT Provincia\nFROM Cuadriculas\nWHERE Provincia NOT IN (\n    SELECT DISTINCT c.Provincia\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":117,
+        "Prompt":"\u00bfEn qu\u00e9 provincias no se encuentran estas especies?",
+        "SQL":"SELECT DISTINCT Provincia\nFROM Cuadriculas\nWHERE Provincia NOT IN (\n    SELECT DISTINCT c.Provincia\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":118,
+        "Prompt":"Dime en qu\u00e9 comunidades aut\u00f3nomas no se han detectado estas especies.",
+        "SQL":"SELECT DISTINCT CCAA\nFROM Cuadriculas\nWHERE CCAA NOT IN (\n    SELECT DISTINCT c.CCAA\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":118,
+        "Prompt":"quiero saber a q comunidades tengo q ir para no encontrarme con estas especies",
+        "SQL":"SELECT DISTINCT CCAA\nFROM Cuadriculas\nWHERE CCAA NOT IN (\n    SELECT DISTINCT c.CCAA\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":118,
+        "Prompt":"comunidades donde no salgan estas especies",
+        "SQL":"SELECT DISTINCT CCAA\nFROM Cuadriculas\nWHERE CCAA NOT IN (\n    SELECT DISTINCT c.CCAA\n    FROM CuadriculasEspecies ce\n    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA\n    WHERE ce.idtaxon = <idtaxon>\n);",
+        "Split":"Train"
+    },
+    {
+        "Indice":119,
+        "Prompt":"Incluye, por favor, el total de rutas donde ha sido vista cada especie.",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nINNER JOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Test"
+    },
+    {
+        "Indice":119,
+        "Prompt":"Estar\u00eda bien saber en cu\u00e1ntas rutas distintas se encuentran estas especies",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nINNER JOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Test"
+    },
+    {
+        "Indice":119,
+        "Prompt":"xq no pones en cuantas rutas diferentes salen las especies",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nINNER JOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>",
+        "Split":"Test"
+    },
+    {
+        "Indice":120,
+        "Prompt":"quiero q me digas si se han visto estas especies en rutas de m\u00e1s de 50 km",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    Taxonomia AS t\nJOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nJOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nJOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon> AND r.Longitud > 50;",
+        "Split":"Train"
+    },
+    {
+        "Indice":120,
+        "Prompt":"Presencia en rutas largas (m\u00e1s de 50 km)",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    Taxonomia AS t\nJOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nJOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nJOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon> AND r.Longitud > 50;",
+        "Split":"Train"
+    },
+    {
+        "Indice":120,
+        "Prompt":"A\u00f1ade a la descripci\u00f3n si se ha observado en alguna ruta cuya longitud sea mayor de 50 km",
+        "SQL":"SELECT\n    r.ID_Ruta,\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    Taxonomia AS t\nJOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nJOIN\n    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\nJOIN\n    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon> AND r.Longitud > 50;",
+        "Split":"Train"
+    },
+    {
+        "Indice":121,
+        "Prompt":"incluye ejemplos de rutas de menos de 15 km donde pueda ver estas especies",
+        "SQL":"SELECT\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>\n    AND r.Longitud < 15",
+        "Split":"Train"
+    },
+    {
+        "Indice":121,
+        "Prompt":"en q rutas < 15 km se han registrado estas especies?",
+        "SQL":"SELECT\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>\n    AND r.Longitud < 15",
+        "Split":"Train"
+    },
+    {
+        "Indice":121,
+        "Prompt":"Rutas de menos de 15 km donde aparezcan",
+        "SQL":"SELECT\n    r.Nombre_Ruta,\n    r.Nombre_Etapa,\n    r.Longitud\nFROM\n    CuadriculasEspecies ce\nINNER JOIN\n    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA\nINNER JOIN\n    Rutas r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    ce.idtaxon = <idtaxon>\n    AND r.Longitud < 15",
+        "Split":"Train"
+    },
+    {
+        "Indice":122,
+        "Prompt":"Quiero la familia y otros nombres comunes",
+        "SQL":"SELECT\n    t.family AS Familia,\n    ne.nombre_comun AS NombreComun\nFROM\n    Taxonomia AS t\nINNER JOIN\n    NombresEspecies AS ne ON t.taxonid = ne.idtaxon\nWHERE\n    t.taxonid = <idtaxon> AND ne.espreferente = 0\nORDER BY\n    ne.nombre_comun;",
+        "Split":"Train"
+    },
+    {
+        "Indice":122,
+        "Prompt":"Me interesa saber a qu\u00e9 familia pertenecen y qu\u00e9 otros nombres comunes tienen",
+        "SQL":"SELECT\n    t.family AS Familia,\n    ne.nombre_comun AS NombreComun\nFROM\n    Taxonomia AS t\nINNER JOIN\n    NombresEspecies AS ne ON t.taxonid = ne.idtaxon\nWHERE\n    t.taxonid = <idtaxon> AND ne.espreferente = 0\nORDER BY\n    ne.nombre_comun;",
+        "Split":"Train"
+    },
+    {
+        "Indice":122,
+        "Prompt":"Puedes darme la familia y otros nombres comunes?",
+        "SQL":"SELECT\n    t.family AS Familia,\n    ne.nombre_comun AS NombreComun\nFROM\n    Taxonomia AS t\nINNER JOIN\n    NombresEspecies AS ne ON t.taxonid = ne.idtaxon\nWHERE\n    t.taxonid = <idtaxon> AND ne.espreferente = 0\nORDER BY\n    ne.nombre_comun;",
+        "Split":"Train"
+    },
+    {
+        "Indice":123,
+        "Prompt":"A\u00f1ade otros nombres, tanto los comunes como los cient\u00edficos.",
+        "SQL":"SELECT\n    ne.nombre_comun AS NombreComun,\n    ne.idioma AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    NombresEspecies AS ne\nLEFT JOIN\n    Taxonomia AS t ON ne.idtaxon = t.taxonid\nWHERE\n    ne.idtaxon = <idtaxon> AND ne.espreferente = 0\nUNION ALL\nSELECT\n    NULL AS NombreComun,\n    NULL AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon> AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":123,
+        "Prompt":"\u00bfCon qu\u00e9 otros nombres, cient\u00edficos o comunes, se identifica esta especie?",
+        "SQL":"SELECT\n    ne.nombre_comun AS NombreComun,\n    ne.idioma AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    NombresEspecies AS ne\nLEFT JOIN\n    Taxonomia AS t ON ne.idtaxon = t.taxonid\nWHERE\n    ne.idtaxon = <idtaxon> AND ne.espreferente = 0\nUNION ALL\nSELECT\n    NULL AS NombreComun,\n    NULL AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon> AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":123,
+        "Prompt":"Dame sin\u00f3nimos y otros nombres comunes",
+        "SQL":"SELECT\n    ne.nombre_comun AS NombreComun,\n    ne.idioma AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    NombresEspecies AS ne\nLEFT JOIN\n    Taxonomia AS t ON ne.idtaxon = t.taxonid\nWHERE\n    ne.idtaxon = <idtaxon> AND ne.espreferente = 0\nUNION ALL\nSELECT\n    NULL AS NombreComun,\n    NULL AS IdiomaNombreComun,\n    t.name AS NombreCientificoSinonimo\nFROM\n    Taxonomia AS t\nWHERE\n    t.taxonid = <idtaxon> AND t.nametype = 'Sin\u00f3nimo';",
+        "Split":"Train"
+    },
+    {
+        "Indice":124,
+        "Prompt":"xq no me dices en cuants rutas se encuentra y me resumes las descripcions en una linea",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas\nFROM\n    Taxonomia AS t\n    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\n    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\n    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":124,
+        "Prompt":"Resume cada especie en una l\u00ednea y a\u00f1ade en cu\u00e1ntas rutas se puede encontrar",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas\nFROM\n    Taxonomia AS t\n    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\n    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\n    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":124,
+        "Prompt":"En cu\u00e1ntas rutas salen y descripciones de una l\u00ednea",
+        "SQL":"SELECT\n    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas\nFROM\n    Taxonomia AS t\n    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\n    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA\n    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta\nWHERE\n    t.taxonid = <idtaxon>;",
+        "Split":"Test"
+    },
+    {
+        "Indice":125,
+        "Prompt":"Puedes incluir la taxonom\u00eda de las especies y las provincias donde puedo encontrarlas?",
+        "SQL":"SELECT\n    t.name AS NombreCientifico,\n    t.taxonrank AS RangoTaxonomico,\n    t.kingdom AS Reino,\n    t.phylum AS Filo,\n    t.class AS Clase,\n    t.taxonorder AS Orden,\n    t.family AS Familia,\n    t.genus AS Genero,\n    c.Provincia AS Provincia\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    t.taxonid = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    },
+    {
+        "Indice":125,
+        "Prompt":"Quiero ver la taxonom\u00eda y la distribuci\u00f3n por provincias de cada especie.",
+        "SQL":"SELECT\n    t.name AS NombreCientifico,\n    t.taxonrank AS RangoTaxonomico,\n    t.kingdom AS Reino,\n    t.phylum AS Filo,\n    t.class AS Clase,\n    t.taxonorder AS Orden,\n    t.family AS Familia,\n    t.genus AS Genero,\n    c.Provincia AS Provincia\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    t.taxonid = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    },
+    {
+        "Indice":125,
+        "Prompt":"Taxonom\u00eda y provincias donde aparecen",
+        "SQL":"SELECT\n    t.name AS NombreCientifico,\n    t.taxonrank AS RangoTaxonomico,\n    t.kingdom AS Reino,\n    t.phylum AS Filo,\n    t.class AS Clase,\n    t.taxonorder AS Orden,\n    t.family AS Familia,\n    t.genus AS Genero,\n    c.Provincia AS Provincia\nFROM\n    Taxonomia AS t\nINNER JOIN\n    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon\nINNER JOIN\n    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA\nWHERE\n    t.taxonid = <idtaxon>\nORDER BY\n    c.Provincia;",
+        "Split":"Train"
+    }
+]

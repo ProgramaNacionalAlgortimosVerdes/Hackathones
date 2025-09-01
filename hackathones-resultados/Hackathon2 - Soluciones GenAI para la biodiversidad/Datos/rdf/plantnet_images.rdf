@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/data/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/data/item/164">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24271</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puccinellia+pungens</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/54e8331e3bd5d760032168e0f8e8e18b0ee678c0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">merops</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/148">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8601</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spiraea+crenata</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7689db7711d7474578475365b537043dd61818f8</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evgeniya</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/64">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1062</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crambe+pritzelii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/0e9983d740016e0e974e8c5d56c0bda4edcc3023</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/136">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8238</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semele+gayae</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/42cd608c62cfefef31e13d8b0c0fb4f6747842da</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anna_485</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/117">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6035</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lonicera+biflora</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/32f267bef1cae82538be043684c7de146317f648</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isidrepege</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/157">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9482</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ziziphora+hispanica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f2ece05d37e2f757d83b84c5f70a2ee5141afa28</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/89">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3235</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centaurea+borjae</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3f37b2243d0a2a4c0043a0934456d1930652c113</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ara Vic</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/9">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koeleria+dasyphylla</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5d5b16c16fdff2ded435d7aa0cbe600a2b7cb81b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrew Gagg</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/22">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argyranthemum+winteri</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4ea06367f169fa130affcfb75fe1baaa619de446</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/34">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">907</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbia+bourgeana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1bc3e6ceb2f95b9e9c01a367e0e31aac7b981a89</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/76">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1716</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coincya+rupestris</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/9454e4ea02648107fb568a5687772836db0dcf9c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/139">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8320</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+tragoriganum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1cc3f6daa02581d8afc6e61ee3c39f2c83451c10</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/39">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">925</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypochaeris+oligocephala</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/24843167c75f3de9af437b7c7a777d1418f499a2</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kai Best</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/50">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">959</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+spartioides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/0eae113845cda7645ba8bff16ed5775f22789d03</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alban THIBAULT</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/58">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1009</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+pumila</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/55e8f6632cfa3c596be7b4c65af61e7b92c4a7b7</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/113">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5869</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+catalaunicum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/69290d932315aae44d9e77339fc2eada536cc956</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marcvallmanya</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/36">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">915</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helianthemum+bystropogophyllum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/35621a561ab91af6e3b14705d72eb413859317d6</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/5">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">265</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erysimum+penyalarense</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f9152143261e8f2725c1f1d289e5c307788c4d70</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/17">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">791</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teucrium+cossonii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/30595a437ec5f5714381c7e0c993f039d25203f9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro Gaspar</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/21">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">840</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argyranthemum+adauctum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a1d85f234c29fd25f1aac15f80d5b50a75542b8d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">christine Lesca Maillard</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/96">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3916</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cynara+baetica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/168222ed818bcc30f94e606ffc89402a3221fedb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/35">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">908</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbia+bravoana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/508591f1767d6bea16cef52569366513c5448308</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/104">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4509</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbia+nevadensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4d4db8e9baefc1ad0b2ba6005e22ef03d4002fb6</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/130">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7172</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantago+notata</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ffb5a832ee6339838f3993f2e0ad079941074abb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M. Hedayat</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/143">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8366</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silene+sennenii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c942397a9621687e8342beaaba9f75ef03a7e665</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/65">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1067</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tephroseris+balbisiana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/b16de926e3a4ca210b6079e3433944b18106c26e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pl@ntNet</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/31">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">900</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echium+callithyrsum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3a2e7c2ab78efb2415810ed3d8d0cb991ecb40e4</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/100">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4146</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draba+hispanica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3f07d2a5682d8c538edd41ac9b0dbb585d78c652</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naturgrama</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/52">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">975</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pericallis+hadrosoma</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a37a1f5c625eec92838952a0fb5ae619040520c6</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">francisco mendez</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/80">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2243</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aquilegia+pyrenaica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e0c5d9baf5fbd9bebfa66e3de39c71be005f9fe0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alain Bigou</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/6">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Festuca+yvesii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/39f3fa49126729149307fd8bc7f69a3ea2b8fe9b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chérif-Jacques Allali</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/38">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">924</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypericum+coadunatum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/da4e0657095c607e0d5867cf448c0b7ddbec24eb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/57">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1008</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+nervosa</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7fc4b495859181e04aecf236328c7e6562295f57</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/78">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2139</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Androcymbium+psammophilum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/aad1313470d5399575bff63f4cbe76dad87625fb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/54">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulicaria+canariensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a085c402860d428e40e8941191f9ef18956e4ad3</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/12">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">487</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+perplexum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4c4dffe29432be734fcff8ece61534f2da846e50</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/111">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5803</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+dufourii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/99aeba34f5ebe3d63de37befc930e1d0f706bd66</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paco Paños</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/150">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8757</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytisus+tribracteolatus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f54092922e6eeb0ced2bc631978b7de5107ae091</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/59">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1028</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+brassicifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/8c1062d8fe47511f8d27b30f55186694a7d9de7d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/18">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">792</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taraxacum+gaditanum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4e58915ffc1764d2ac1522670aad35392ed66b3e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/155">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8952</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thymus+vulgaris</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/59b983b2126b0370596c585299e2d3f2292405f5</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helmut Augsburger</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/132">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7389</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prunus+lusitanica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f04b7ffd19789c25b32f0d594fa1263b8ffa4530</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emmanuel Bouchard</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/107">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5263</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hieracium+ramondii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/2b1472dc252683bda01772a7cfb331513387a4db</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/116">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5979</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linaria+supina</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/334273c67043a78707ef8bfdab89702b000f1e94</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Javier López</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/85">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2499</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armeria+velutina</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/89a5a2b12acea359b7439cb8b41d4d1c79f3ab85</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/16">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">751</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+gomerae</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/0a3387ea2ab726180f35359db410d69d76e1e7fc</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emine Özbostan</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/61">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1040</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonchus+pustulatus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/68fbcae45e31cf48ae49ea6a2d23122332972b1d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hugo Gresse</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/44">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">948</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+sventenii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e5dde2274cfeece7fd03434d8e325cc67eb8214a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Schmitz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/167">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24401</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fritillaria+pyrenaica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ddc177ce5ede7fdffb9a6ec97bc3cb60427e53eb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ononis Katherine</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/142">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8340</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+leucantha</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/012e6350f3ef5c7a48d9076c0cf21fef366b5a28</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/79">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2217</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antirrhinum+valentinum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/13e29b76767728d5f0e827ed955ea61faf46ec6e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/33">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">906</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enneapogon+persicus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/56f5ce8686f0d1863aefcb07864063b25909a65b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brshedayat</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/91">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3358</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centaurium+quadrifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/cb5473e02a55a840f745ffe68e6b83ed44da80ac</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/73">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1472</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+nutans</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/66a32cc34431d1dfd395dab5d75ce12b23dc3baa</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pedro Gaspar</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/3">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conyza+albida</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/8ce74186ae078c63867b635787bde50664771aa9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maria Florio</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/138">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8310</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silene+diclinis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/294c9c4e8ebf7d06e6edabee27bbbe77653cb723</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/27">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">887</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crambe+scoparia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/64e7717430e946254cc728b1d8ba45b467288bce</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel schefer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/70">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1240</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cistus+chinamadensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/88e879094802b654bc63bd16bd37fc09e6d85c91</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/119">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6119</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lythrum+flexuosum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/09e3ebb092713daa3ba0bd361d27e46b7bfe8782</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thierry Deflandre</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/11">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+brassicifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/8c1062d8fe47511f8d27b30f55186694a7d9de7d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/105">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4750</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galium+glaucum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c0d5784dd4fb8024c540061406b807ff6f73705e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabrice Rubio</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/83">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2457</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armeria+colorata</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/86d5f5bfac67707877e3642983f276fa754fc126</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garcia del Barrio José M</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/125">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6550</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nepeta+hispanica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5997dd178d6f33728916d1990ce01e4e21f97fea</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/168">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26500</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cistus+osbeckiifolius</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/17c6eded4c4dadb489df4f3e17c16a1e81ca18de</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/145">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8373</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silene+uniflora</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e3cfc832500f0e2a3dfa74097ba90d95d0b0259a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joe Bu</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/49">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">958</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+pyranthus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/09a29b719c51971c067d76acd558b7e0f276f19c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/122">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6272</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicago+italica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/439510b4e92aa1d5392eeb1e6d2c076a12a4708e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cello Widmer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/151">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8790</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teucrium+edetanum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5ba0e2f985ddf204ad8783cbcf1a6156c1a06bd7</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aureliopenya57</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/92">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3505</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheirolophus+uliginosus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/872d4374dc44e8d29584064bf0e2c5f521cc8e89</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monteiro Henrique</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/47">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">954</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+eremiticus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1e9315ba81702353febffa5d3a852fdc5f5f1c1e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hieracium eriophorum</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/0">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aichryson+pachycaulon</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/96eb2486c22a65afdd66b3d2fbe5ed25f1d116d2</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/87">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2602</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astragalus+nitidiflorus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a6a199d192ccb70b5402b36d7c434d6a1fd7b7d9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naturgrama</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/95">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3741</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepidium+navasii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a4bf3d3a48fdbebb56175dc2662d2c4648bd5c8a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/156">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9371</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicia+altissima</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7e88fb47b8105804a53d372862276b2b1b383e12</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klaus Betke</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/158">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9989</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erodium+astragaloides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5f546c2a84f58508733a9d4c891047f0999f9f65</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pablo González Piñero</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/160">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10029</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Festuca+elegans</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7be5bb4b318cdb6ddf2a5c848d1916dc197796c1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/112">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5845</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+malacitanum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/9482a537ee6a74f8c15840d7a3c897f73745e744</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jose L. Fabra</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/51">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">969</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ononis+christii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7bd917d8bec008dd25b381eb2774a3c0151b2dde</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">valenich</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/55">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">987</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scrophularia+calliantha</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4a6aa2c4da6571e0d27d8b5d6da6f1925dce3690</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zamora Enrique</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/77">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1719</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allium+grosii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ae0c26a5a51a753db1f05b5531d52923e87c1b86</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/161">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10138</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sonchus+crassifolius</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/018a8d523d31b38e6cb470b49012083b1264b0d5</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ara Vic</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/108">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5286</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hippocrepis+prostrata</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/6c0f77e0cb116116dba989e7b643da17429ecac4</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martinez Manuel</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/14">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulicaria+canariensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a085c402860d428e40e8941191f9ef18956e4ad3</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/43">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">946</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+redivivum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/81d1d24d8193a8a57605a3a075778366da4c2acd</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/115">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5965</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linaria+polygalifolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a5abc7988198fc5c3b9ae978ed4cb154db31e212</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verónica Rodríguez Vicente</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/121">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6271</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medicago+intertexta</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/924e20568787b3d8ec96dcaa38dd47cacf1d9405</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perez sheila</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/131">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7244</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polycarpon+polycarpoides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4ea5b879be8f10cc43d0c0b540cf5567a5bc3d2c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Llandrich anna</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/149">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8689</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noccaea+occitanica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c7c447c1092e11979a5a99df3e6a80be88b97b57</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joerg Husi</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/154">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8932</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thymus+moroderi</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/943652f5501caedef9a757c0cf8edb61bd7b67d8</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/1">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aichryson+porphyrogennetos</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c568fddf3f2a3c7031851b1a57483d951eff422e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/68">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1099</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paspalum+paspalodes</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/88ce9ac8a5cd99025a379cce008ca365ca1d9d41</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trap Hers</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/63">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1060</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convolvulus+scoparius</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/135271aae593442142695abdff33d638840c1482</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/174">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34004</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcissus+confusus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f04d69990070e8449acfcdda086aff9b5f1e4313</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel Bäck</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/140">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8328</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+glauca</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/0983e678d6c6cf246f1a46e5c6e3d52169fc0965</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/128">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6890</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papaver+rupifragum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ec3d7a7fe92690a503a4d05a2b64dcad3edd5659</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/62">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1052</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volutaria+bollei</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4823ca45048d57ea6fb8d9c2b847bd995c6a17e2</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/26">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">874</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheirolophus+arbutifolius</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/0a0010ad77f4044d3e2e5e46068be9da52381ba2</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michal Svit</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/103">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4504</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbia+margalidiana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/943798c72dbbded8600b5f54aa946e7f41f1d8eb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patrice Dupont</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/15">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">665</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Santolina+viscosa</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f547cbd74fddc5313021fa54fe3e819d31fbcbc6</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hidro.uno</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/137">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8282</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+chamaedryfolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e51fc19f942e1305ac55c2fd7afe20660df43694</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/144">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8367</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silene+stockenii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/36bbc7b379cbf073ef55b358cf6d76222595277c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romero Sánchez</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/24">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">864</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carex+perraudieriana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a318e05d0a5b124f88b6cf367df2bc0aaf2433d9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florian Bemmerlein-Lux</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/32">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">902</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echium+handiense</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/34d30970de0e8212fb957b2561eecbce0f1d4ca0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/173">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33087</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+frutescens</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7aaca4b588ff189dd40091d7726f7b5fded80ccc</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sanz pau</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/133">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7480</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quercus+faginea</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/28af4f145c6d34465f7480fa73e21baea3bd878c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquim Serra</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/146">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8456</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sisymbrium+crassifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/d9b0e9c454f1a2b0c3c9c87feb0b7ddcfbe80278</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garcia del Barrio José M</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/41">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">943</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+brassicifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/8c1062d8fe47511f8d27b30f55186694a7d9de7d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/99">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4138</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+dorycnium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5c3b8b1c7f2591c576be1c052e58c8148be69640</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fejul Xeto</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/30">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">896</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+spectabilis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ddbb0bad8cdad2be646ead99ef6ac9e7227bfc90</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/165">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24283</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+pungens</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/2ba54292cbb2cb09ef6627634d66b3bba3dd711a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/120">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6227</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marsilea+strigosa</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/6516ab7e876fd75bc28ed8d53701f301e8935fee</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/37">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">916</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Globularia+sarcophylla</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/9ea553004ad6a3453b260fdbcee7985fe53ebefe</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/94">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3710</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convolvulus+valentinus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5ac746be0f6d573f68e946ccb114b5f81a12bb44</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Luis Arias Blanco</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/114">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5954</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linaria+oblongifolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4698a6e190645dda6d253f6d93995e518401cb06</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Francois Mansour</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/53">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">976</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plantago+famarae</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/addddd00a2535e111687148355da7d75ea3d8db0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/66">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1081</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cereus+peruvianus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/d40181ea09e6071dbee29d7a400a0637c6023a41</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İsmail Yardım</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/172">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33058</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convolvulus+fruticulosus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c735fd76b6b70af47f7f6350a89e0679c5c8f47a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/170">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31848</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+holosericeus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e090019357ac0c779a07b9b2325e12bb358032e8</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/4">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dianthus+broteri</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1621d7f2bba07c5df35582ddb0b499a9a3575b14</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lozano Gómez Pedro</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/153">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8925</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thymus+loscosii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/50aa36c45e3cd49894505ce2c0db90310e3bd61d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/176">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80456</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalaria+squamiflora</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1cad525a624e400ceb2c624d95b59d596ede0241</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/166">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24395</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arum+italicum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1a31873fb45f05ed22014420a13a107c0ad6291b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olivier Le Gall</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/46">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">953</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+callis-viridis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/56dca2c57867765ecff994dfe5ce8daee9d6c2f9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sans Attaches</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/163">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24238</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Festuca+yvesii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/39f3fa49126729149307fd8bc7f69a3ea2b8fe9b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chérif-Jacques Allali</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/134">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7588</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reseda+alba</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/190b6d58f9946c31b54bf1d5c8026cebf9bbc72c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juan Carlos Venegas</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/171">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32074</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vella+aspera</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7593e4d4174036dde23a7adf0783efc91ba459bc</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/69">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1175</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apollonias+barbujana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3196d09e1b16ba430306dd389391f7372503d5fb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Schmitz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/84">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2470</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armeria+humilis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/d9dfbb504f39704698ba5e9cc6949c64920427d1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/2">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anagyris+latifolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5b36a075ec366314956abe31435837bd107cac07</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alexismanuelfernandezgarcia</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/71">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1444</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruta+oreojasme</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/755072b65b72fb01eac43867982a879585c5221a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/109">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5398</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juncus+balticus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ea954bd9c1da700b049254ac6a9094b8868a717f</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trap Hers</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/82">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2452</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armeria+cantabrica</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7ae25f6740bb815900578aba62f696aca488c235</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon Flippo</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/60">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1037</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solanum+vespertilio</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/41e34440f6cb4a9d475bb79bc3cae594961efd6b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/135">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7847</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupicapnos+africana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/73f6819822d21b2fa57a20a2fa0a8769d7195972</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aranda José Javier</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/75">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1703</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allium+baeticum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/b714d71f954cecba9e38ce92320d53728c65d4b5</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martang AzAr</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/123">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6440</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odontites+kaliformis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4d7b502d0cc6d7d5ca683a209f53c94efd397b29</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ara Vic</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/141">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8333</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+ilicifolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5943b73d0e678bbf93066b91510f7c372c370429</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/97">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3995</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delphinium+bolosii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ee91c93ebed354dc1f76279b1aab2260cecc3204</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/56">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1005</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+discolor</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/b0981037dd01d1180a7fc1a38242fd60028b5b56</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/67">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1089</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa+oryzoides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/e79c40d39e3a1e837f73db273f43aa0a07804c9a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pegenaute i Ferri Isidre</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/8">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genista+dorycnifolia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/1baab6ac9ee170ad590054302ff9a41e4fb57354</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patrice Dupont</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/101">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4260</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eichhornia+crassipes</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/9dec1aaf801e63d092af7ca0c69666e0e8aaceaf</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karla Carranco</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/162">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10451</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teucrium+heterophyllum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/bfff81c4bfc2ce6494fbb9a9c381eff70ea34331</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/29">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">895</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+broussonetii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/57f3df931a61fb6155848d30aa1ef3747980c00a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/19">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aeonium+balsamiferum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/08833e31acf6647b23d5d7146983a77e1f73d5c4</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/90">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3319</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centaurea+pinnata</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/194b7039911f80e3f706fd3b1d145548428ef7ad</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angel Blasco</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/7">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Festuca+vasconcensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/8b0e95ed7ab081a8de63876eb30f75ec0be7aa4f</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/45">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">952</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+berthelotii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/bcd89c598f72861d580fb729faf0301e9052b8b1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/152">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8811</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teucrium+lepicephalum</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/2c56dc2f917a5ccd852b846e59af8a56e0946b2b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">García Aaron</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/74">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1474</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+soluta</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/de43fdb17404de12714287a39824bf9d918a67a1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/25">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">866</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceropegia+dichotoma</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7f5a5c2624564eb7caa3acb7632c3c56cf563d80</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Schmitz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/20">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">839</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apollonias+barbujana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3196d09e1b16ba430306dd389391f7372503d5fb</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Schmitz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/28">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">894</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descurainia+artemisioides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/12159b521740b1b7a12edc720a9c856d940a499e</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/98">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4134</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+dorycnium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5c3b8b1c7f2591c576be1c052e58c8148be69640</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fejul Xeto</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/102">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4477</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euphorbia+gaditana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ea6644e8a4a0b1afa27c186c6fa4cbd5b7a40227</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romero Sánchez</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/88">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3103</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carex+lachenalii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/4d6f68e78cfd690f6020c95764e3bb1623499a3a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michal Svit</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/129">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6908</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxytropis+jabalambrensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/a29812c9abd83c7f9dc0633f1181664bb74723e9</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ara Vic</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/40">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">935</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+dendroides</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/7f9c1a10220b810f475a612f5ff703ac585ed36d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">christine Lesca Maillard</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/81">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2443</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armeria+bigerrensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c6c299251dcbcca832eb35b2188ebcd8dabe552a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acosta José</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/159">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10007</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erodium+rupicola</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/fe0109ab4b298b06fa86beadf9decc842e0a388b</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helga Kautsch</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/10">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juniperus+cedrus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/3e8151a8e685e858a39be297ecea15b5209f65b4</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andrzej Konstantynowicz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/110">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5675</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laserpitium+latifolium</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/50b42effbdcb74660353459a1581f8a6ee08339d</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peter Schmitz</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/93">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3616</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cistus+heterophyllus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/95cfac523d49e0d8cf29908df114ddb5c6fbcc0c</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/169">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26859</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teucrium+oxylepis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/ba3f03269eac96b3b8da36e883fb653e0d8a0ab0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ara Vic</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/118">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6048</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lonicera+splendida</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/46aa7251e7f0c1298a353671ac730526ed7b9ea0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hernández Manuel</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/13">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+silvestrei</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/202835c48efd76d177daa1a809e4f6331377c172</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BDandy</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/86">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2583</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astragalus+gines-lopezii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/6de226108453bebcb7d4176111746d259ea17c94</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vicente J. Aran</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/23">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">855</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atractylis+arbuscula</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/5f7f6aa740fffac6de5a233f1f05a8aff6f4fe03</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leopold Appel</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/124">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6452</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Odontites+viscosus</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/eee1b269e293a49cce5579312c2816360556e6c0</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miguel A. C.</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/127">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6797</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cathissa+reverchonii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/926f9159a26ac63ba87ff65dae45ef03bfdef6f1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Jean-Luc TASSET</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/175">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79299</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digitalis+isabelliana</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c96eeb450dc090a3c2a29de7cf5c5d3a24ee9476</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/106">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4895</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genista+hystrix</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/f44bd67d36fb3b286439ab8d83cd5ff5eb615c89</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mathilde Didier</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/72">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1469</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sideritis+ferrensis</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c8cd19504e500e030d9638a6424c643c1bab1469</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/147">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8562</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorbus+intermedia</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/c5f5e1eadc87ec07d9b61e459e9d2f27009e55b1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KP Laer</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/126">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6658</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onobrychis+argentea</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/9ba62ac5a35ac6937d5dfba419f0ce74e83249d1</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OlgaPokotilo</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/42">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">944</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limonium+preauxii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/df41b50d493831c500db833d46ec5f1dcd2b3293</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Alex</ns1:by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/48">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:taxonid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">956</ns1:taxonid>
+    <ns1:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lotus+kunkelii</ns1:name>
+    <ns1:photo_link rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://bs.plantnet.org/image/o/630476d6a09f01f17daf5db23184aff3016ee83a</ns1:photo_link>
+    <ns1:by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Photoflora - Benoit BOCK</ns1:by>
+  </rdf:Description>
+</rdf:RDF>

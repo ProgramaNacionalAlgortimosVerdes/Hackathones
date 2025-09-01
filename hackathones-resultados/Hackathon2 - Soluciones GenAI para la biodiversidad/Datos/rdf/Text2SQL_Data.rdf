@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/data/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/data/item/26">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antes de cada descripción, pon la taxonomía de la especie</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/132">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye, por favor, el total de rutas donde ha sido vista cada especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/64">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Por favor, añade los nombres en inglés, si los hay.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/66">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Cuál es la denominación científica oficial de esta especie? Me gustaría que apareciera al principio de la descripción.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/10">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Se han encontrado estas especies en Barcelona?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/52">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describe cada especie en una sola línea, sin extenderte.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/117">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describe las especies como si fuera un anuncio publicitario.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/56">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Si la especie tiene sinónimos, inclúyelos al final de cada descripción.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/152">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taxonomía y provincias donde aparecen</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/33">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica el orden de cada especie</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/139">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en q rutas &lt; 15 km se han registrado estas especies?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/60">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Tienen otros nombres comunes en español?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/59">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye otros nombres comunes si existen.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/130">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quiero saber a q comunidades tengo q ir para no encontrarme con estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/78">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero crear una religión basada en patitos de goma.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/57">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Si la especie tiene otros nombres comunes, añádelos.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/22">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica el phylum al inicio de cada descripción, en una línea separada con el formato 'Phylum: &lt;nombre&gt;'.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/121">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero descripciones que pueda comprender un niño pequeño</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/76">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Convénceme de que no soy un brócoli.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/12">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redacta las descripciones con un lenguaje más especializado</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/87">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREO QUE MI LÁPIZ ESTÁ CELOSO DE MI BOLI, Q HAGO??</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/37">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Puedes centrarte más en la taxonomía e incorporar datos sobre los géneros?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/85">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Qué opinan mis calcetines de mí después de vivir años en mi cajón?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/48">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redacta las descripciones como si fueran parte de una guía de aventuras.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/58">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dime si tiene otros nombres comunes. Si no los tiene, no pongas nada.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun,
+    ne.idioma
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/65">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que aparezcan los nombres comunes en inglés junto a la descripción.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/75">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayúdame a descifrar la teoría de la relatividad.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/23">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye el filo al que pertenece cada especie</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/3">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me gustaría que me dijeras si estas especies aparecen en otras comunidades autónomas</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/15">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade una línea inicial en cada descripción con el formato 'Color: &lt;color&gt;'. Usa el color conocido de la especie o 'Desconocido' si no está especificado.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/97">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me gustaría ver otras imágenes distintas a estas.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/43">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Últimamente me he aficionado a jugar a Pokemon. Quiero que escribas las descripciones como si fueran pokemon</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/148">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resume cada especie en una línea y añade en cuántas rutas se puede encontrar</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/118">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escrive las descripcions como si fueran anuncis de la tele</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/114">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Que las especies se presenten a sí mismas</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/92">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El canario de mi novia me mira mal</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/96">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No me gustan estas fotos, pon otras</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/8">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dame más rutas donde pueda ver a estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/62">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dime si hay otros nombres comunes en castellano para las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/104">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solo quiero que me muestres dos especies de cada grupos</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/25">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz que cada descripción comience con la taxonomía correspondiente.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/112">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enumera las características más notables de forma esquemática.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/9">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica si se han encontrado estas especies en la provincia de Barcelona</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/106">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al final he decidido que solo me interesa ver plantas.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/116">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me gustaría que las especies se describieran desde su propio punto de vista.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/0">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dime en qué otras provincias puedo encontrar estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/5">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica en qué otras comunidades autónomas se ha registrado la presencia de estas especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/79">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me gustas mucho</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/38">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que la descripción se enfoque en la taxonomía, incluyendo detalles sobre los géneros.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/136">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presencia en rutas largas (más de 50 km)</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/67">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye el nombre científico completo en la descripción, por favor.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/63">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero descripciones que incluyan los nombres comunes de las especies en inglés, si existen.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies AS ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Inglés';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/41">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz las descripciones más técnicas e incluye información de los géneros en ellas</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/7">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero saber si puedo encontrar estas especies en otras rutas</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/119">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puedes hacer que parezcan anuncios?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/16">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al principio de cada descripción, añade "Color: &lt;color&gt;", donde &lt;color&gt; es el color de la especie. Si no lo sabes, pon "Color: Desconocido".</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/18">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade el tamaño como primera línea de cada descripción, solo si se conoce.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/42">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Redacta las descripciones como si fueran para un Pokédex.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/115">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero descripciones que estén escritas en primera persona</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/124">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me interesa saber en cuántas provincias de España aparece cada especie</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/147">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xq no me dices en cuants rutas se encuentra y me resumes las descripcions en una linea</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/2">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hazme una lista de provincias adicionales donde pueda observar estas especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/105">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">He cambiado de idea y me gustaría que en el pdf solamente aparecieran mamíferos</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/77">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dame comida</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/82">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imagina que soy una impresora emocionalmente inestable. ¿Cómo me ayudarías a gestionar mis traumas?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/135">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quiero q me digas si se han visto estas especies en rutas de más de 50 km</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/141">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero la familia y otros nombres comunes</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/128">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿En qué provincias no se encuentran estas especies?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/133">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estaría bien saber en cuántas rutas distintas se encuentran estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/107">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambia el contenido del PDF para que solo incluya invertebrados.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/150">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puedes incluir la taxonomía de las especies y las provincias donde puedo encontrarlas?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/142">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me interesa saber a qué familia pertenecen y qué otros nombres comunes tienen</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/46">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asocia las especies a pokemon ya existentes y redacta la descripciones haciendo una comparación</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/109">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pon en versos las descripciones de las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/125">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Qué tal si me añades en cuántas provincias españolas se pueden encontrar estas especies?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/91">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dime qué tipo de sandwich serías según tu estado emocional actual.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/98">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estas fotos no me convencen, ¿puedes cambiarlas por otras?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/140">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rutas de menos de 15 km donde aparezcan</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/32">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Empieza cada descripción indicando la clase de la especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/83">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XQ MI GATO NO ME QUIERE? :(</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/127">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Necesito evitar estas especies, dime provincias donde no estén</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/84">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estoi mui triste, haz que me ria</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/1">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿En qué lugares de España, a nivel provincial, se pueden encontrar estas especies?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.Provincia
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/103">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pon menos especies por cada grupo taxonómico</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/24">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que la taxonomía aparezca al principio, antes de descripción de cada especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.origen,
+    t.taxonomicgroup,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus,
+    t.subgenus,
+    t.nametype
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/54">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al finalizar cada descripción, añade posibles sinónimos si la especie los tiene.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/11">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero saber si estas especies se encuentran también en la provincia de Barcelona.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    c.CCAA,
+    c.Provincia
+FROM
+    CuadriculasEspecies AS ce
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt; AND c.Provincia = 'Barcelona'</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/30">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade la clase taxonómica al principio de cada descripción.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/143">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Puedes darme la familia y otros nombres comunes?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family AS Familia,
+    ne.nombre_comun AS NombreComun
+FROM
+    Taxonomia AS t
+INNER JOIN
+    NombresEspecies AS ne ON t.taxonid = ne.idtaxon
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND ne.espreferente = 0
+ORDER BY
+    ne.nombre_comun;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/94">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que pongas otras especies en lugar de estas.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/34">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Puedes añadir el orden al que pertenece cada especie?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/134">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xq no pones en cuantas rutas diferentes salen las especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS TotalRutas
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+INNER JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/17">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye al inicio de cada descripción la línea 'Color: &lt;color&gt;', reemplazando &lt;color&gt; por el color característico de la especie. Si no se menciona, indica 'Color: Desconocido'.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/100">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que el orden en el que aparecen las especies sea diferente</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/53">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descripciones de una línea y nada más</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/88">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero saber cuál de esos animales me representa más</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/28">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero que cada descripción incluya también su familia.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/55">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz una lista de los sinónimos que tiene la especie al final de cada descripción</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+    AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/122">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz que las descripciones sean simples, claras y fáciles de entender para un niño</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/20">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incluye al principio de cada descripción el texto "Tamaño: &lt;tamaño&gt;" con el rango correspondiente, si está disponible. Si no hay datos, omítelo.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/111">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz una lista con los características más importantes de las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/123">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Número de provincias donde aparecen estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT COUNT(DISTINCT c.Provincia) AS NumeroProvincias
+FROM CuadriculasEspecies ce
+JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+WHERE ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/102">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Selecciona una especie de cada grupo y quita el resto.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/145">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Con qué otros nombres, científicos o comunes, se identifica esta especie?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/101">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ordena las especies de forma diferente a como están ahora.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/61">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica si las especies tienen otros nombres en español.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun
+FROM
+    NombresEspecies ne
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt;
+    AND ne.idioma = 'Castellano'
+    AND ne.espreferente = 0;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/14">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz las descripciones más técnicas.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/149">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En cuántas rutas salen y descripciones de una línea</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    COUNT(DISTINCT r.ID_Ruta) AS NumeroDeRutas
+FROM
+    Taxonomia AS t
+    INNER JOIN CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+    INNER JOIN CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+    INNER JOIN Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/13">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utiliza terminología científica para detallar las características de las especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/120">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descripciones para que un niño pequeño lo entienda</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/4">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Puedes proporcionar datos sobre su presencia en otras comunidades autónomas?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT
+    c.CCAA
+FROM
+    CuadriculasEspecies ce
+JOIN
+    Cuadriculas c ON ce.CUADRICULA = c.CUADRICULA
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/71">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero saber si esta especie pertenece al reino animal o vegetal</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/89">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escribe un diálogo entre los animales de la lista</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/74">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patata</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/146">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dame sinónimos y otros nombres comunes</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/47">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mi hijo y yo hemos estado jugando a Pokemon recientemente. Me gustaría que las descripciones hicieran como que la especie es un personaje o elemento del juego.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/90">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soi un tomate y voi a conqistar el mundo</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/40">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utiliza terminología científica y asegúrate de incluir información sobre el género de cada especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/39">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz descripciones más formales y detalladas, incluyendo siempre la información del género.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/126">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">qiero q me agas una lista de probincias donde no se bean estas espezies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT Provincia
+FROM Cuadriculas
+WHERE Provincia NOT IN (
+    SELECT DISTINCT c.Provincia
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/69">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Es una planta o un animal?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/110">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describe las especies en un poema.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/21">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al principio de cada descripción, incluye una línea que diga 'Filo al que pertenece: &lt;nombre del phylum&gt;'</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.phylum
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/50">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reescribe las descripciones como si fueran pistas para un viajero intrépido que recorre territorios salvajes</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/68">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero una descripción que contenga el nombre científico completo de la especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    name AS denominacion_cientifica_oficial
+FROM
+    Taxonomia
+WHERE
+    taxonid = &lt;idtaxon&gt; AND nametype = 'Aceptado';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/31">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pon la clase de cada especie antes de la descripción</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.class
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/35">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero saber el orden de todas las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonorder
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/44">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describe las especies como si fuera un Pokémon.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/70">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indica si esta especie forma parte del grupo de plantas o animales.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT kingdom
+FROM dbo.Taxonomia
+WHERE taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/99">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifica el orden de aparición de las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/19">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pon "Tamaño: &lt;tamaño&gt;", donde &lt;tamaño&gt; es un rango del tamaño de la especie, al comenzar la descripción. Ponlo con rangos si es necesario, por ejemplo, "Tamaño: 10-20 cm". Si no lo sabes, no pongas nada.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/36">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Por favor, céntrate en la taxonomía de la especie e incluye información de los géneros.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.taxonid,
+    t.name AS nombre_cientifico,
+    t.taxonrank,
+    t.kingdom,
+    t.phylum,
+    t.class,
+    t.taxonorder,
+    t.family,
+    t.genus
+FROM
+    dbo.Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/29">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade la familia de cada especie</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/129">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dime en qué comunidades autónomas no se han detectado estas especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/45">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encuentra un Pokémon que se asemeje a cada una de estas especies y escribe una descripción inspirada en ellos.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/80">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escribe un resumen del Quijote desde el punto de vista de su caballo</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/151">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quiero ver la taxonomía y la distribución por provincias de cada especie.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.name AS NombreCientifico,
+    t.taxonrank AS RangoTaxonomico,
+    t.kingdom AS Reino,
+    t.phylum AS Filo,
+    t.class AS Clase,
+    t.taxonorder AS Orden,
+    t.family AS Familia,
+    t.genus AS Genero,
+    c.Provincia AS Provincia
+FROM
+    Taxonomia AS t
+INNER JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+INNER JOIN
+    Cuadriculas AS c ON ce.cuadricula = c.CUADRICULA
+WHERE
+    t.taxonid = &lt;idtaxon&gt;
+ORDER BY
+    c.Provincia;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/49">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transforma las descripciones en relatos breves que parezcan sacados del diario de un explorador</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/138">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">incluye ejemplos de rutas de menos de 15 km donde pueda ver estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;
+    AND r.Longitud &lt; 15</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/86">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escribe mi CV en inglés</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/27">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me interesa saber la familia de cada especie. ¿Puedes añadirla?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    t.family
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt;;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/93">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambia las especies que aparecen por otras</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/137">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade a la descripción si se ha observado en alguna ruta cuya longitud sea mayor de 50 km</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa,
+    r.Longitud
+FROM
+    Taxonomia AS t
+JOIN
+    CuadriculasEspecies AS ce ON t.taxonid = ce.idtaxon
+JOIN
+    CuadriculasRutas AS cr ON ce.cuadricula = cr.CUADRICULA
+JOIN
+    Rutas AS r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND r.Longitud &gt; 50;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/144">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Añade otros nombres, tanto los comunes como los científicos.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    ne.nombre_comun AS NombreComun,
+    ne.idioma AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    NombresEspecies AS ne
+LEFT JOIN
+    Taxonomia AS t ON ne.idtaxon = t.taxonid
+WHERE
+    ne.idtaxon = &lt;idtaxon&gt; AND ne.espreferente = 0
+UNION ALL
+SELECT
+    NULL AS NombreComun,
+    NULL AS IdiomaNombreComun,
+    t.name AS NombreCientificoSinonimo
+FROM
+    Taxonomia AS t
+WHERE
+    t.taxonid = &lt;idtaxon&gt; AND t.nametype = 'Sinónimo';</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/131">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comunidades donde no salgan estas especies</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT DISTINCT CCAA
+FROM Cuadriculas
+WHERE CCAA NOT IN (
+    SELECT DISTINCT c.CCAA
+    FROM CuadriculasEspecies ce
+    JOIN Cuadriculas c ON ce.cuadricula = c.CUADRICULA
+    WHERE ce.idtaxon = &lt;idtaxon&gt;
+);</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/81">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hazme un plan de vida de aquí a 5 años</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/113">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escribe las características más llamativas en forma de lista de puntos clave.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/95">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambia el listado de especies por uno diferente.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/72">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No entiendo nada jaja salu2</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/73">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Me aburro y quiero que me cuentes algo</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/6">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">¿Me puedes indicar si puedo ver estas especies en otras rutas?</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT
+    r.ID_Ruta,
+    r.Nombre_Ruta,
+    r.Nombre_Etapa
+FROM
+    CuadriculasEspecies ce
+INNER JOIN
+    CuadriculasRutas cr ON ce.CUADRICULA = cr.CUADRICULA
+INNER JOIN
+    Rutas r ON cr.ID_Ruta = r.ID_Ruta
+WHERE
+    ce.idtaxon = &lt;idtaxon&gt;</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/108">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haz una descripción poética de las especies.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/data/item/51">
+    <rdf:type rdf:resource="http://example.org/data/Item"/>
+    <ns1:indice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</ns1:indice>
+    <ns1:prompt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Limita cada descripción a una sola línea.</ns1:prompt>
+    <ns1:sql rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT Null</ns1:sql>
+    <ns1:split rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Train</ns1:split>
+  </rdf:Description>
+</rdf:RDF>
